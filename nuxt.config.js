@@ -1,6 +1,6 @@
 export default {
   target: 'static',
-  ssr: true,
+  ssr: false,
   head: {
     title: 'neofox.org',
     htmlAttrs: {
