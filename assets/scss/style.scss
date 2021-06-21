@@ -1,0 +1,132 @@
+@import "variables";
+@import "fonts";
+@import "bootstrap-custom";
+@import "components";
+@import "general";
+@import "helper";
+@import "menu";
+@import "home";
+@import "features";
+@import "testi";
+@import "price";
+@import "cta";
+@import "blog";
+@import "work";
+@import "team";
+@import "user";
+@import "countdown";
+@import "contact";
+@import "footer";
+
+
+@for $i from 1 through 10 {
+  .back-#{$i} {
+    z-index: -$i !important;
+  }
+}
+
+@for $i from 1 through 20 {
+  .font-#{$i} {
+    font-size: calc(#{$i}vw + 14px) !important;
+  }
+}
+
+
+@for $i from 1 through 10 {
+  .small-#{$i} {
+    font-size: #{$i+10}px !important;
+  }
+}
+
+@for $i from 1 through 10 {
+  .front-#{$i} {
+    z-index: $i !important;
+  }
+}
+
+@for $i from 1 through 100 {
+  .line-#{$i} {
+    line-height: $i/10 !important;
+  }
+}
+
+@keyframes opacity_zero_to_one {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    opacity: 1 !important;
+  }
+}
+
+@for $i from 1 through 10 {
+  .anim-text {
+    &:nth-child(#{$i}) {
+      animation: opacity_zero_to_one #{$i*300}ms ease-in-out forwards;
+    }
+  }
+}
+
+.rotate-90 {
+  transition: all ease-in-out 140ms;
+  transform: rotate(90deg);
+}
+
+.rotate-0 {
+  transition: all ease-in-out 140ms;
+  transform: rotate(0deg);
+}
+
+.t-shadow {
+  text-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+// End Text animation
+
+
+// blog
+.post {
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  padding: 0.3rem !important;
+
+  &:hover {
+    border: 0.25em solid $primary;
+    padding: 0 !important;
+
+    &::before, &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      background: $light;
+      z-index: 1;
+    }
+
+    &::before {
+      top: -0.3em;
+      bottom: -0.3em;
+      left: 1em;
+      right: 1em;
+    }
+
+    &::after {
+      left: -0.3em;
+      right: -0.3em;
+      top: 1em;
+      bottom: 1em;
+    }
+
+    .post-image {
+      z-index: 10;
+      transition: all ease-in-out 200ms;
+      filter: brightness(110%) !important;
+    }
+
+  }
+}
+
+// end blog

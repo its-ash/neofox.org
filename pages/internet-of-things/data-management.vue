@@ -19,12 +19,14 @@
           </div><!--end col-->
 
           <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
-            <img src="images/digital/about.png" class="img-fluid d-block mx-auto" alt="">
+            <img src="/images/digital/about.png" class="img-fluid d-block mx-auto" alt="">
           </div><!--end col-->
         </div><!--end row-->
       </div> <!--end container-->
     </section><!--end section-->
     <!-- Partners start -->
+    <TechList
+      :items="['influxdb.svg', 'rethinkdb.svg','kibana.svg', 'couchdb.svg','datadog.svg','mongodb.svg','aws-dynamodb.svg', 'prometheus.svg']"></TechList>
     <!-- Partners End -->
     <div class="position-relative">
       <div class="shape overflow-hidden text-white">
@@ -128,8 +130,10 @@
 </template>
 
 <script>
+import TechList from "@/components/TechList";
+
 export default {
-  name: "AiForIotDevice"
+  components: {TechList}
 }
 </script>
 

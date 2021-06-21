@@ -1,44 +1,44 @@
-export const TWITTER = (data) => {
+export const TwitterTags = (title, description, coverImage, url) => {
   return [
     {
       hid: 'twitter:title',
       name: 'twitter:title',
-      content: data.title
+      content: title
     },
     {
       hid: 'twitter:site',
       name: 'twitter:site',
-      content: data.title
+      content: "neofox"
     },
     {
       hid: 'twitter:creator',
       name: 'twitter:creator',
-      content: data.title
+      content: title
     },
     {
       hid: 'twitter:card',
       name: 'twitter:card',
-      content: data.title
+      content: title
     },
     {
       hid: 'twitter:description',
       name: 'twitter:description',
-      content: data.description
+      content: description
     },
     {
       hid: 'twitter:image',
       name: 'twitter:image',
-      content: data.coverImage
+      content: coverImage
     },
     {
       hid: 'twitter:image:alt',
       name: 'twitter:image:alt',
-      content: data.title
+      content: title
     },
     {
       hid: "twitter:url",
       name: "twitter:url",
-      content: "https://www.neofox.org",
+      content: url || "https://www.neofox.org",
     },
   ]
 }

@@ -348,10 +348,9 @@
 
 <script>
 import FAQ from "@/components/FAQ";
-import DataScienceHeader from "@/components/data-science/DataScienceHeader";
 
 export default {
-  components: {FAQ, DataScienceHeader},
+  components: {FAQ},
   name: "data-science",
   data: () => ({
     question: {'lorem1': 'ans1', 'lorem2': 'ans1', 'lorem3': 'ans1', 'lorem4': 'ans1',}

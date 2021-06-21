@@ -1,0 +1,43 @@
+name: Github Page Build
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@master
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-build-
+            ${{ runner.OS }}-
+
+      - name: Install
+        run: npm install
+
+      - name: Build
+        run: npm run generate
+
+
+      - name: Pushes to Neofox Website
+        uses: cpina/github-action-push-to-another-repository@master
+        env:
+          API_TOKEN_GITHUB: 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
+        with:
+          source-directory: 'dist'
+          destination-github-username: 'ashvinijangid'
+          destination-repository-name: 'dev-neofox-org'
+          user-email: ashvinijangid@gmail.com
+          destination-repository-username: 'neofoxindia'
+
+
+

@@ -1,10 +1,28 @@
 <template>
-$END$
+  <section class="py-1 bg-light">
+    <div class="container-fluid px-md-5 px-0">
+      <div class="row justify-content-around align-items-center">
+        <div v-for="item in items" class="col-md-1 col-2 text-center py-4">
+          <img data-bs-toggle="tooltip" data-bs-placement="top" :title="item.split('.')[0].toUpperCase()"
+               :src="imagePath(item)" class="avatar w-100 p-lg-3 p-0" :alt="item">
+        </div><!--end col-->
+      </div><!--end row-->
+    </div><!--end container-->
+  </section>
 </template>
 
 <script>
 export default {
-name: "TechLists"
+  name: "TechList",
+  props: {
+    items: {
+      type: Array,
+      default: []
+    }
+  },
+  methods: {
+    imagePath: (item) => '/svg/tech/' + item
+  }
 }
 </script>
 

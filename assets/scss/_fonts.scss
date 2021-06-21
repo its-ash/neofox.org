@@ -1,0 +1,17 @@
+@import "../fonts/rajdhani.css";
+@import "../fonts/robotoSlab.css";
+@import "../fonts/NotoSans.css";
+@import "../fonts/grayCliff.css";
+
+@font-face {
+  font-family: CircularStd-Black;
+  src: url(~/assets/fonts/circular/CircularStd-Black.woff2);
+}
+
+
+* {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

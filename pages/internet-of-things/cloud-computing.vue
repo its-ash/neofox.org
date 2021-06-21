@@ -128,9 +128,7 @@
 </template>
 
 <script>
-export default {
-  name: "AiForIotDevice"
-}
+export default {}
 </script>
 
 <style scoped>

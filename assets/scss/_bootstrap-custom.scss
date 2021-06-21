@@ -1,0 +1,180 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+// Layout & components
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+//@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/accordion";
+//@import "~bootstrap/scss/breadcrumb";
+//@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+//@import "~bootstrap/scss/alert";
+//@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+//@import "~bootstrap/scss/toasts";
+//@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+//@import "~bootstrap/scss/popover";
+//@import "~bootstrap/scss/carousel";
+//@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/offcanvas";
+
+// Helpers
+@import "~bootstrap/scss/helpers";
+
+// Utilities
+@import "~bootstrap/scss/utilities/api";
+// scss-docs-end import-stack
+
+
+.container {
+  @media (min-width: 1400px) {
+    max-width: 1140px !important;
+  }
+}
+
+.row > * {
+  position: relative;
+}
+
+@each $heading,
+$size in $heading-font-sizes {
+  #{$heading}, .#{$heading} {
+    font-size: $size !important;
+  }
+}
+
+@each $heading,
+$size in $display-font-sizes {
+  .#{$heading} {
+    font-size: $size !important;
+  }
+}
+
+@each $name,
+$value in $colors {
+  .bg-#{$name} {
+    background-color: #{$value} !important;
+  }
+  .bg-soft-#{$name} {
+    background-color: rgba($value, 0.1) !important;
+    border: 1px solid rgba($value, 0.1) !important;
+    color: #{$value} !important;
+  }
+  .text-#{$name} {
+    color: #{$value} !important;
+  }
+  a {
+    &.text-#{$name} {
+      &:hover,
+      &:focus {
+        color: darken($value, 5%);
+      }
+    }
+  }
+}
+
+.d-flex {
+  .flex-1 {
+    flex: 1;
+  }
+}
+
+.bg-black {
+  background: $black !important;
+}
+
+//Video tag
+video {
+  &:focus {
+    outline: none;
+  }
+}
+
+//li (list inline item)
+.list-inline-item:not(:last-child) {
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+
+// Rounded
+.rounded {
+  border-radius: 6px !important;
+}
+
+.rounded-top {
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+}
+
+.rounded-left {
+  border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+}
+
+.rounded-bottom {
+  border-bottom-left-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+.rounded-right {
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+.rounded-md {
+  border-radius: 10px !important;
+}
+
+.rounded-lg {
+  border-radius: 30px !important;
+}
+
+//Border
+.border {
+  border: 1px solid $gray-200 !important;
+}
+
+.border-top {
+  border-top: 1px solid $gray-200 !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $gray-200 !important;
+}
+
+.border-left {
+  border-left: 1px solid $gray-200 !important;
+}
+
+.border-right {
+  border-right: 1px solid $gray-200 !important;
+}
+
+//Small
+.small, small {
+  font-size: 90%;
+}
+
+//card
+.card {
+  .card-body {
+    padding: 1.5rem;
+  }
+}

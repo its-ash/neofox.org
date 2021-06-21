@@ -6,7 +6,8 @@
         <div class="row align-items-center">
           <div class="col-md-6 col-12">
             <div class="title-heading">
-              <span class="badge rounded-pill bg-soft-primary">Development</span>
+              <NuxtLink :to="{name:'internet-of-things'}" class="badge rounded-pill bg-soft-primary">IoT Solutions
+              </NuxtLink>
               <h1 class="fw-bold mt-2 mb-3">A Complete <br> Developer Toolset</h1>
               <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
                 managing conversion centered bootstrap v5 html page.</p>
@@ -25,6 +26,7 @@
       </div> <!--end container-->
     </section><!--end section-->
     <!-- Partners start -->
+    <TechList :items="['flutter.svg', 'electron.svg', 'web-dev.svg','android.svg', 'ios.svg', 'qt.svg', 'terminal.svg']"></TechList>
     <!-- Partners End -->
     <div class="position-relative">
       <div class="shape overflow-hidden text-white">
@@ -128,8 +130,10 @@
 </template>
 
 <script>
+import TechList from "@/components/TechList";
+
 export default {
-  name: "AiForIotDevice"
+  components: {TechList}
 }
 </script>
 

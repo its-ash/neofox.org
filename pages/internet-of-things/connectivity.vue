@@ -25,6 +25,8 @@
       </div> <!--end container-->
     </section><!--end section-->
     <!-- Partners start -->
+    <TechList
+      :items="['wifi.svg', '4g.svg', 'bluetooth.svg', 'lora.svg', 'zigbee.svg', 'gprs.svg']"></TechList>
     <!-- Partners End -->
     <div class="position-relative">
       <div class="shape overflow-hidden text-white">
@@ -128,8 +130,10 @@
 </template>
 
 <script>
+import TechList from "@/components/TechList";
+
 export default {
-  name: "AiForIotDevice"
+  components: {TechList}
 }
 </script>
 
