@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run generate
+        run: npm run neofox
 
 
       - name: Pushes to Neofox Website
