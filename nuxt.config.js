@@ -64,7 +64,6 @@ export default {
   axios: {},
   content: {},
   build: {
-    publicPath: process.env.BASE_URL || '',
     // extractCSS: true
   }
 }
