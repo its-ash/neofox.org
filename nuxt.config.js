@@ -63,7 +63,8 @@ export default {
   },
   axios: {},
   content: {},
-  // build: {
-  //   extractCSS: true
-  // }
+  build: {
+    publicPath: process.env.BASE_URL || '',
+    // extractCSS: true
+  }
 }
