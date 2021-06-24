@@ -81,10 +81,8 @@ if (document.getElementById("navigation")) {
   const elements = document.getElementById("navigation").getElementsByTagName("a");
   for (let i = 0, len = elements.length; i < len; i++) {
     elements[i].onclick = function (elem) {
-      if (elem.target.getAttribute("href") === "javascript:void(0)") {
-        const submenu = elem.target.nextElementSibling.nextElementSibling;
-        submenu.classList.toggle('open');
-      }
+      const submenu = elem.target.nextElementSibling.nextElementSibling;
+      submenu.classList.toggle('open');
     }
   }
 }

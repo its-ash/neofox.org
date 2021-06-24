@@ -1,7 +1,7 @@
 <template>
   <section class="position-relative bg-white">
     <!-- Hero Start -->
-    <section class="bg-half bg-light d-table w-100">
+    <section class="bg-light h-100-center w-100">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 col-12">
@@ -19,7 +19,7 @@
           </div><!--end col-->
 
           <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
-            <img src="images/digital/about.png" class="img-fluid d-block mx-auto" alt="">
+            <img src="/svg/flow-chart/iot-cloud.svg" class="img-fluid d-block mx-auto" alt="">
           </div><!--end col-->
         </div><!--end row-->
       </div> <!--end container-->
@@ -128,7 +128,13 @@
 </template>
 
 <script>
-export default {}
+import {bootstrap} from "@/plugins/script.client";
+
+export default {
+  mounted() {
+    bootstrap();
+  }
+}
 </script>
 
 <style scoped>

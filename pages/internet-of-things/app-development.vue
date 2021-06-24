@@ -26,7 +26,8 @@
       </div> <!--end container-->
     </section><!--end section-->
     <!-- Partners start -->
-    <TechList :items="['flutter.svg', 'electron.svg', 'web-dev.svg','android.svg', 'ios.svg', 'qt.svg', 'terminal.svg']"></TechList>
+    <TechList
+      :items="['flutter.svg', 'electron.svg', 'web-dev.svg','android.svg', 'ios.svg', 'qt.svg', 'terminal.svg']"></TechList>
     <!-- Partners End -->
     <div class="position-relative">
       <div class="shape overflow-hidden text-white">
@@ -131,9 +132,13 @@
 
 <script>
 import TechList from "@/components/TechList";
+import {bootstrap} from "@/plugins/script.client";
 
 export default {
-  components: {TechList}
+  components: {TechList},
+  mounted() {
+    bootstrap();
+  }
 }
 </script>
 

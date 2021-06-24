@@ -52,7 +52,9 @@ export default {
   buildModules: [],
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/sentry'
+    '@nuxtjs/sentry',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
   sentry: {
     dsn: 'https://704d969eaaf1446c9447899468d31011@o559736.ingest.sentry.io/5694827',
@@ -65,5 +67,18 @@ export default {
   content: {},
   build: {
     // extractCSS: true
+  },
+  sitemap: {
+    hostname: 'https://test1.foxapi.live/',
+    exclude: [],
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    },
+  },
+  robots: {
+    UserAgent: '*',
+    Disallow: '/'
   }
 }

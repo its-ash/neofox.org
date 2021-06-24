@@ -34,7 +34,7 @@
         </div><!--end row-->
         <div class="row pb-5 d-flex justify-content-center">
           <div class="col-md-4 col-10">
-            <h5 class="footer-head h6 text-gray">Follow Us</h5>
+            <h3 class="footer-head h6 text-gray">Follow Us</h3>
             <div class="row social-icon">
               <div class="col-lg-2 col-md-3 col-3 p-lg-3 p-md-3 p-4" :style="{fill:'#'+linkedinIcon.hex}"
                    v-html="linkedinIcon.svg"></div>
@@ -47,7 +47,7 @@
             </div>
           </div>
           <div class="col-md-4 col-10">
-            <h5 class="footer-head h6 text-gray">Know More</h5>
+            <h3 class="footer-head h6 text-gray">Know More</h3>
             <div class="row social-icon">
               <div class="col-lg-2 col-md-3 col-3 p-lg-3 p-md-3 p-4" :style="{fill:'#'+dribbleIcon.hex}"
                    v-html="dribbleIcon.svg"></div>
@@ -60,7 +60,7 @@
             </div>
           </div>
           <div class="col-md-4 col-10">
-            <h5 class="footer-head h6 text-gray">Also On</h5>
+            <h3 class="footer-head h6 text-gray">Also On</h3>
             <div class="row social-icon">
               <div class="col-lg-2 col-md-3 col-3 p-lg-3 p-md-3 p-4" :style="{fill:'#fefefe'}"
                    v-html="githubIcon.svg"></div>

@@ -123,10 +123,17 @@
     .post-image {
       z-index: 10;
       transition: all ease-in-out 200ms;
-      filter: brightness(110%) !important;
     }
 
   }
 }
 
 // end blog
+
+.h-100-center {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 95vh !important;
+  justify-content: center;
+  align-content: center;
+}

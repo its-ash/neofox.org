@@ -2,7 +2,7 @@
   <main>
     <client-only>
       <BaseHeader class="front-2"></BaseHeader>
-      <Nuxt class="front-1 position-relative"/>
+      <Nuxt class="front-1 position-relative mt-4"/>
       <BaseFooter class="back-1"></BaseFooter>
     </client-only>
   </main>

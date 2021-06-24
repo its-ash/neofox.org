@@ -10,6 +10,6 @@ export default () => {
   });
   Vue.filter('slug', function (value) {
     if (!value) return ''
-    return value.replace(/[^a-z0-9#]+/gi, '').split(" ").join("-").toLowerCase();
+    return value.replace(/[^a-z0-9#]+/gi, ' ').split(" ").join("-").toLowerCase();
   })
 }

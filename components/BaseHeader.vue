@@ -6,14 +6,10 @@
         <img src="/img/logo.png" height="30" class="logo-light-mode" alt="Neofox">
         <img src="/img/logo.png" height="210" class="logo-dark-mode" alt="Neofox">
       </NuxtLink>
-      <div class="float-end">
-        <NuxtLink :to="{name:'contact'}" class="d-block text-primary pt-4 fw-bold line">Contact</NuxtLink>
-      </div><!--end login button-->
-      <!-- End Logo container-->
       <div class="menu-extras">
         <div class="menu-item">
           <!-- Mobile menu toggle-->
-          <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+          <a class="navbar-toggle" id="isToggle" @click="toggleMenu">
             <div class="lines">
               <span></span>
               <span></span>
@@ -23,49 +19,83 @@
           <!-- End mobile menu toggle-->
         </div>
       </div>
-      <div id="navigation">
+      <div class="float-end pt-3">
+        <NuxtLink :to="{name:'contact'}" class="btn btn-primary d-block text-primaryfw-bold line">Contact</NuxtLink>
+      </div><!--end login button-->
+      <!-- End Logo container-->
+
+      <div ref="navigation" id="navigation">
         <!-- Navigation Menu-->
         <ul class="navigation-menu">
           <li>
             <NuxtLink :to="{name:'index'}" class="sub-menu-item fw-bold">Home</NuxtLink>
           </li>
           <li class="has-submenu parent-parent-menu-item">
-            <NuxtLink :to="{ name: 'index',hash:'#services'}" class="fw-bold">Services</NuxtLink>
+            <NuxtLink v-on:click.native="openThis('iot')" :to="{ name: 'index',hash:'#services'}" class="fw-bold">
+              Solution
+            </NuxtLink>
             <span class="menu-arrow"></span>
-            <ul class="submenu">
+            <ul class="submenu" ref="iot">
               <li class="has-submenu parent-menu-item">
-                <NuxtLink :to="{name:'internet-of-things'}" class="fw-bold"> Iot Solution</NuxtLink>
+                <NuxtLink v-on:click.native="openThis('iot-ai')" :to="{name:'internet-of-things'}" class="fw-bold"> Iot
+                  Solution
+                </NuxtLink>
                 <span class="submenu-arrow"></span>
-                <ul class="submenu">
+                <ul class="submenu" ref="iot-ai">
                   <li>
-                    <NuxtLink :to="{name: 'internet-of-things-artificial-intelligent'}" class="sub-menu-item">AI for IoT
-                      Devices
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'internet-of-things-artificial-intelligent'}"
+                      class="sub-menu-item">
+                      AI for IoT Devices
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink :to="{name: 'internet-of-things-m2m-platforms'}" class="sub-menu-item">M2M platforms
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'internet-of-things-m2m-platforms'}"
+                      class="sub-menu-item">
+                      M2M platforms
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink :to="{name: 'internet-of-things-connectivity'}" class="sub-menu-item">Connectivity
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'internet-of-things-connectivity'}"
+                      class="sub-menu-item">
+                      Connectivity
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink :to="{name: 'internet-of-things-cloud-computing'}" class="sub-menu-item">Cloud computing
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'internet-of-things-cloud-computing'}"
+                      class="sub-menu-item">
+                      Cloud computing
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink :to="{name: 'internet-of-things-data-management'}" class="sub-menu-item">Data management
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'internet-of-things-data-management'}"
+                      class="sub-menu-item">
+                      Data management
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink :to="{name: 'internet-of-things-app-development'}" class="sub-menu-item">Application
-                      development
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'internet-of-things-app-development'}"
+                      class="sub-menu-item">
+                      Application development
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink :to="{name: 'internet-of-things-device-management'}" class="sub-menu-item">Device
-                      management
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'internet-of-things-end-to-end'}"
+                      class="sub-menu-item">
+                      End to End Solution
                     </NuxtLink>
                   </li>
                 </ul>
@@ -161,6 +191,9 @@
             </ul>
           </li>
           <li>
+            <NuxtLink :to="{name:'about'}" class="sub-menu-item fw-bold">About</NuxtLink>
+          </li>
+          <li>
             <NuxtLink :to="{name:'blog'}" class="sub-menu-item fw-bold">Blog</NuxtLink>
           </li>
         </ul><!--end navigation menu-->
@@ -171,7 +204,20 @@
 
 <script>
 export default {
-  name: "BaseHeader"
+  name: "BaseHeader",
+  methods: {
+    toggleMenu() {
+      this.$refs.navigation.classList.toggle('d-block')
+    },
+    openThis(name) {
+      this.$refs[name].classList.toggle('open');
+    }
+  },
+  watch: {
+    '$route.path'(path) {
+
+    }
+  }
 }
 </script>
 

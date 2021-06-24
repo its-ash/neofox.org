@@ -1,8 +1,8 @@
 <template>
   <div class="accordion mt-4 pt-2" :id="'_'+uuid">
-    <div v-for="(answer,question) in data" class="accordion-item rounded mt-2">
-      <h2 class="accordion-header" :id="answer | slug">
-        <button class="accordion-button border-0 bg-light collapsed" type="button"
+    <div v-for="(answer,question) in data" class="accordion-item rounded mt-2 shadow-sm border-0">
+      <h2 class="accordion-header " :id="answer | slug">
+        <button class="accordion-button border-0 collapsed py-2 bg-light" type="button"
                 data-bs-toggle="collapse"
                 :data-bs-target="'#' + question | slug" aria-expanded="false"
                 :aria-controls="question | slug">

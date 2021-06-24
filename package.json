@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sentry": "^5.1.0",
+    "@nuxtjs/sitemap": "^2.4.0",
     "@sentry/tracing": "^6.6.0",
     "@sentry/vue": "^6.6.0",
     "@tryghost/content-api": "^1.5.7",
@@ -22,13 +24,13 @@
     "simple-icons": "^5.0.0"
   },
   "devDependencies": {
-    "vue": "^2.6.12",
     "@nuxt/types": "~2.15.0",
     "@types/simple-icons": "^5.0.0",
     "fibers": "^5.0.0",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
     "sass": "~1.32.0",
-    "sass-loader": "10"
+    "sass-loader": "10",
+    "vue": "^2.6.12"
   }
 }

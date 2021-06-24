@@ -1,7 +1,7 @@
 <template>
   <section class="position-relative bg-white">
     <!-- Hero Start -->
-    <section class="bg-half bg-light d-table w-100">
+    <section class="bg-light w-100 h-100-center">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 col-12">
@@ -11,7 +11,7 @@
               <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
                 managing conversion centered bootstrap v5 html page.</p>
               <div class="mt-4 pt-2">
-                <a href="javascript:void(0)" class="btn btn-primary me-2">Get Started</a>
+                <NuxtLink :to="{name:'contact'}" class="btn btn-primary me-2">Get Started</NuxtLink>
                 <a href="javascript:void(0)" class="btn btn-outline-primary">Documentation</a>
               </div>
               <p class="text-muted mb-0 mt-3">Current Version: v3.0.0</p>
@@ -19,13 +19,14 @@
           </div><!--end col-->
 
           <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
-            <img src="images/digital/about.png" class="img-fluid d-block mx-auto" alt="">
+            <img src="/svg/flow-chart/iot-ai.svg" class="img-fluid d-block mx-auto" alt="">
           </div><!--end col-->
         </div><!--end row-->
       </div> <!--end container-->
     </section><!--end section-->
     <!-- Partners start -->
-    <TechList :items="['pytorch.svg', 'tensorflow.svg','python.svg','neo4j.svg','opencv.svg']"></TechList>
+    <TechList
+      :items="['pytorch.svg', 'tensorflow.svg','python.svg','neo4j.svg','opencv.svg', 'pyspark.svg']"></TechList>
     <!-- Partners End -->
     <div class="position-relative">
       <div class="shape overflow-hidden text-white">
@@ -41,7 +42,7 @@
         <div class="row">
           <div class="col-12">
             <div class="section-title mb-4 pb-2">
-              <h4 class="title mb-4">Key Features</h4>
+              <h2 class="title mb-4">Key Features</h2>
               <p class="para-desc text-muted mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
                 that can provide everything you need to generate awareness, drive traffic, connect.</p>
             </div>
@@ -115,7 +116,7 @@
         <div class="row justify-content-center">
           <div class="col-12">
             <div class="section-title text-center mb-4 pb-2">
-              <h6 class="text-primary">Quickstart</h6>
+              <h3 class="text-primary">Quickstart</h3>
               <h4 class="title mb-4">Awesome isn't it? Let's dive in!</h4>
               <p class="para-desc mx-auto text-muted mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
                 that can provide everything you need to generate awareness, drive traffic, connect.</p>
@@ -130,9 +131,13 @@
 
 <script>
 import TechList from "@/components/TechList";
+import {bootstrap} from "@/plugins/script.client";
 
 export default {
-  components: {TechList}
+  components: {TechList},
+  mounted() {
+    bootstrap();
+  }
 }
 </script>
 

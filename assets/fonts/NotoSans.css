@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+
 .noto-sans {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+svg,g,text {
   font-family: 'Noto Sans', sans-serif !important;
 }

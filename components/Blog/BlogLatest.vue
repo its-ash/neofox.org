@@ -1,12 +1,21 @@
 <template>
-  <section class="d-table w-100 position-relative bg-white">
-    <div class="container">
-      <div class="row justify-content-center text-center py-5">
-        <small class="col-12 rajdhani">READ UP ON LATEST TECH NEWS</small>
-        <h2 class="h1">LATEST POSTS</h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi obortis ligula euismod sededesty am augue
-          nisl.
-        </p>
+  <section class="d-table w-100 position-relative bg-white py-5">
+    <div class="container py-5">
+      <div class="row align-items-center mb-4 pb-2">
+        <div class="col-lg-6">
+          <div class="section-title text-center text-lg-start">
+            <NuxtLink :to="{name: 'blog'}" class="text-primary">Blog</NuxtLink>
+            <h4 class="title mb-4 mb-lg-0">Reads Our Latest <br> News &amp; Blog</h4>
+          </div>
+        </div><!--end col-->
+
+        <div class="col-lg-6">
+          <div class="section-title text-center text-lg-start">
+            <p class="text-muted mb-0 mx-auto para-desc">Start working with <span
+              class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness,
+              drive traffic, connect.</p>
+          </div>
+        </div><!--end col-->
       </div>
       <div class="row">
         <div v-for="post in posts" :key="post.id" class="col-lg-4 col-md-6 px-2 my-3">
@@ -15,12 +24,8 @@
       </div>
       <div class="row">
         <div class="col-12 d-flex justify-content-end py-5 line-25">
-          Loved the content
-          <NuxtLink :to="{name:'blog'}" class="text-right mx-4">
-            <span class="p btn btn-outline-success">Read More</span>
-          </NuxtLink>
+          <NuxtLink :to="{name:'blog'}" class="text-right mx-4 line">Read More ></NuxtLink>
         </div>
-
       </div>
     </div>
 
@@ -37,7 +42,7 @@ export default {
   data: () => ({posts: undefined}),
   fetchOnServer: false,
   async fetch() {
-    this.posts = await getPosts({limit: 6,page:1});
+    this.posts = await getPosts({limit: 6, page: 1});
   },
   mounted() {
   }
