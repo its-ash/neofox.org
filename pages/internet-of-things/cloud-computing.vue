@@ -6,7 +6,9 @@
         <div class="row align-items-center">
           <div class="col-md-6 col-12">
             <div class="title-heading">
-              <span class="badge rounded-pill bg-soft-primary">Development</span>
+              <NuxtLink class="badge rounded-pill bg-soft-primary" :to="{name: 'internet-of-things'}">
+                Internet Of Things
+              </NuxtLink>
               <h1 class="fw-bold mt-2 mb-3">A Complete <br> Developer Toolset</h1>
               <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
                 managing conversion centered bootstrap v5 html page.</p>

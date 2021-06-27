@@ -1,12 +1,13 @@
 <template>
   <section class="position-relative bg-white">
     <!-- Hero Start -->
-    <section class="bg-half bg-light d-table w-100">
+    <section class="bg-light w-100 h-100-center">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 col-12">
             <div class="title-heading">
-              <NuxtLink :to="{name:'internet-of-things'}" class="badge rounded-pill bg-soft-primary">IoT Solutions
+              <NuxtLink class="badge rounded-pill bg-soft-primary" :to="{name: 'internet-of-things'}">
+                Internet Of Things
               </NuxtLink>
               <h1 class="fw-bold mt-2 mb-3">A Complete <br> Developer Toolset</h1>
               <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
@@ -19,16 +20,13 @@
             </div>
           </div><!--end col-->
 
-          <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
-            <img src="images/digital/about.png" class="img-fluid d-block mx-auto" alt="">
+          <div class="col-md-6 d-md-block d-none">
+            <img src="/svg/flow-chart/predctive-analysis.svg" class="img-fluid d-block mx-auto" alt="">
           </div><!--end col-->
         </div><!--end row-->
       </div> <!--end container-->
     </section><!--end section-->
-    <!-- Partners start -->
-    <TechList
-      :items="['flutter.svg', 'electron.svg', 'web-dev.svg','android.svg', 'ios.svg', 'qt.svg', 'terminal.svg']"></TechList>
-    <!-- Partners End -->
+
     <div class="position-relative">
       <div class="shape overflow-hidden text-white">
         <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,6 +125,10 @@
       </div><!--end container-->
     </section><!--end section-->
     <!-- End -->
+    <!-- Partners start -->
+    <TechList
+      :items="['flutter.svg', 'electron.svg', 'web-dev.svg','android.svg', 'ios.svg', 'qt.svg', 'terminal.svg']"></TechList>
+    <!-- Partners End -->
   </section>
 </template>
 

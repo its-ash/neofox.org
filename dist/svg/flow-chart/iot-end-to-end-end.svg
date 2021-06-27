@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" height="740.0000000000034pt" width="820.0000000000001pt" viewBox="-54.999999999999886 -212.99999999999997 828.0000000000001 746.0000000000034"><defs><style type="text/css">
+        @font-face {
+            font-family: 'lt_bold';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-bold-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt_bold_italic';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-bolditalic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-bolditalic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt_italic';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-italic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-italic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt_regular';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt-hairline';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/lt-hairline-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/lt-hairline-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt-thinitalic';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/lt-thinitalic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/lt-thinitalic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'champagne';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/champagne-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/champagne-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'indie';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/indie-flower-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/indie-flower-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'bebas';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/bebasneue_regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/bebasneue_regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'bree';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/breeserif-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/breeserif-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'spartan';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/leaguespartan-bold-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/leaguespartan-bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'montserrat';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/montserrat-medium-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/montserrat-medium-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'open_sanscondensed';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/opensans-condlight-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/opensans-condlight-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'open_sansitalic';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/opensans-italic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/opensans-italic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'playfair';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/playfairdisplay-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/playfairdisplay-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'raleway';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/raleway-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/raleway-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'courier_prime';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/courier_prime-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/courier_prime-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'droid_serifregular';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/droid-serif-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'abhaya_libreregular';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/abhaya-libre-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'gandhi_serifregular';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/gandhi-serif-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'noto_bold';
+            src: url('https://app.creately.com/diagram/assets/fonts/noto/noto-bold.woff') format('woff'),
+                 url('https://app.creately.com/diagram/assets/fonts/noto/noto-bold.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'noto_bolditalic';
+            src: url('https://app.creately.com/diagram/assets/fonts/noto/noto-bolditalic.woff') format('woff'),
+                 url('https://app.creately.com/diagram/assets/fonts/noto/noto-bolditalic.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'noto_italic';
+            src: url('https://app.creately.com/diagram/assets/fonts/noto/noto-italic.woff') format('woff'),
+                 url('https://app.creately.com/diagram/assets/fonts/noto/noto-italic.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'noto_regular';
+            src: url('https://app.creately.com/diagram/assets/fonts/noto/noto-regular.woff') format('woff'),
+                 url('https://app.creately.com/diagram/assets/fonts/noto/noto-regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        p {
+            margin: 0;
+        }
+        </style></defs><defs><style>
+            span{ display: inline-block; }
+        </style></defs><g id="qQzexJwSNHB"><g transform="translate(210.00000000000023 -209.99999999999997)"><rect x="0" y="0" width="270" height="180" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/><path d="M 219.375,69.46875 C 206.60221880280625,5.785109553739289 129.67966751836983,-20.19022446439086 80.91440768503074,22.713148752489502 C 73.13187237023199,29.56017506436592 66.67764203397198,37.78265971440279 61.875,46.96875 C 10.337022678598473,53.589693559546625 -14.706831469433174,113.5192803056204 16.796062510857922,154.84200614584708 C 29.289470598820138,171.22976015828536 48.58436850330051,181.01293110361158 69.1875,181.40625 L 215.43749999999997,181.40625 C 246.5035171779821,181.40625 271.6875,156.22226717798213 271.6875,125.15625 C 271.7981046477031,95.64986162492872 248.83072099288103,71.20071106139339 219.375,69.46875 Z" fill="rgb(255,255,255)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/><path d="M 215.15625,182.8125 L 68.90625,182.8125 C 30.876059710372402,182.75056791655797 0.06193856002877543,151.93644027907993 0,113.90625 C -0.21369447602575542,78.98066571164567 25.981206441962787,49.53264474043367 60.693749999999994,45.675 C 91.5255607022108,-12.621795141954768 173.90357431212917,-15.680877928481378 208.9741745131738,40.168650955283496 C 214.3698687897009,48.76123225179314 218.1962543292393,58.24399871618334 220.27499999999998,68.175 C 249.9591829371357,70.57861033430905 272.8217174728421,95.37491399365653 272.8125,125.15625 C 272.7814918998648,156.98605363186718 246.9860536165044,182.78147613395916 215.15625,182.8125 Z M 136.40625,2.8125 C 105.38482651323854,2.834566683361136 76.98173872194245,20.206470386640348 62.83125,47.8125 L 62.49375,48.4875 L 61.875,48.4875 C 28.2608255498318,51.795247297455205 2.6791629969752937,80.12998411115747 2.8125,113.90625 C 2.843515509022121,150.39597247352347 32.41652751800305,179.9689944616241 68.90625,180 L 215.15625,180 C 245.43277213917577,179.96900534559174 269.96899482683233,155.43277212840567 270,125.15625 C 270.0537431627952,96.42718015135475 247.7128769541852,72.63144505501013 219.0375,70.875 L 217.91249999999997,70.875 L 217.91249999999997,69.80625 C 210.0889749575961,30.959752090069664 176.0324287405735,2.9671039309400085 136.40625,2.8125 Z" fill="rgb(233,83,83)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/></g><g transform="translate(344.99500000000023, -19.99999999999997) rotate(0, 0.005, 0)" width="0.01" height="18"><text text-decoration="none" x="0.005" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="15"></text></g></g><g id="7dw0E74vFm1"><g transform="translate(258.0000000000001 -150)"><image width="184.8888888634968" height="119.99999998351956" xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB2aWV3Qm94PSIwIDAgMjA3LjgwMjM3IDEzNC43MjMwMSIgdmVyc2lvbj0iMS4xIiBzb2RpcG9kaTpkb2NuYW1lPSJuZW9mb3hfbG9nby5zdmciIHdpZHRoPSIyMDcuODAyMzY4MTY0MDYyNSIgaGVpZ2h0PSIxMzQuNzIzMDA3MjAyMTQ4NDQiIGlua3NjYXBlOnZlcnNpb249IjEuMSAoYzY4ZTIyYzM4NywgMjAyMS0wNS0yMykiIGlua3NjYXBlOmV4cG9ydC1maWxlbmFtZT0iL2hvbWUvYXNoL0Rlc2t0b3AvTmVvZm94LnBuZyIgaW5rc2NhcGU6ZXhwb3J0LXhkcGk9IjE2MC4zMSIgaW5rc2NhcGU6ZXhwb3J0LXlkcGk9IjE2MC4zMSI+CiAgPG1ldGFkYXRhIGlkPSJtZXRhZGF0YTE5Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yayByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIvPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8c29kaXBvZGk6bmFtZWR2aWV3IHBhZ2Vjb2xvcj0iI2ZmZmZmZiIgYm9yZGVyY29sb3I9IiM2NjY2NjYiIGJvcmRlcm9wYWNpdHk9IjEiIG9iamVjdHRvbGVyYW5jZT0iMTAiIGdyaWR0b2xlcmFuY2U9IjEwIiBndWlkZXRvbGVyYW5jZT0iMTAiIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIiBpbmtzY2FwZTpwYWdlc2hhZG93PSIyIiBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjE5MjAiIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjEwMTMiIGlkPSJuYW1lZHZpZXcxNyIgc2hvd2dyaWQ9ImZhbHNlIiBmaXQtbWFyZ2luLXRvcD0iNC42IiBmaXQtbWFyZ2luLWxlZnQ9IjQuNiIgZml0LW1hcmdpbi1yaWdodD0iNC42IiBmaXQtbWFyZ2luLWJvdHRvbT0iNC42IiBpbmtzY2FwZTp6b29tPSIxLjY3MTI1IiBpbmtzY2FwZTpjeD0iMTA4LjMwMjE3IiBpbmtzY2FwZTpjeT0iNTIuNjU1MTk4IiBpbmtzY2FwZTp3aW5kb3cteD0iMCIgaW5rc2NhcGU6d2luZG93LXk9IjI3IiBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIiBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJMYXllcl8xIiBpbmtzY2FwZTpkb2N1bWVudC1yb3RhdGlvbj0iMCIgaW5rc2NhcGU6cGFnZWNoZWNrZXJib2FyZD0iMCIgbG9jay1tYXJnaW5zPSJ0cnVlIi8+CiAgPGRlZnMgaWQ9ImRlZnM0Ij4KICAgIDxzdHlsZSBpZD0ic3R5bGUyIj4uY2xzLTF7ZmlsbDojZjI1YTI5O30uY2xzLTIsLmNscy0ze2ZpbGw6IzI4MjgyODt9LmNscy0ze2ZvbnQtc2l6ZTo5M3B4O2ZvbnQtZmFtaWx5Ok15cmlhZFByby1SZWd1bGFyLCBNeXJpYWQgUHJvO2xldHRlci1zcGFjaW5nOjAuMDJlbTt9PC9zdHlsZT4KICA8L2RlZnM+CiAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJtIDEwNC43MzU2OCwxMjcuNjI2MTcgYyA0LjYxNTYxLC0xNS43NTQ2MiA1LjIwMDI1LC0zMS4zNjMwNjggMS4zODQ2OCwtNDcuMTc5MjI4IC0xLjA2MTU5LC00LjM5MjUyIC0yLjg0NjI5LC01Ljc2MTgyIC03LjMzODgyLC01LjcwMDI4IEMgNTcuMTk0ODgsNzUuMzY5NzcyIDIxLjY1NDY4LDUxLjUyMjQ1MiA2Ljc5MjQxLDEzLjI2NjczMSA2LjAyMzE0LDExLjI4MjAxOCA1LjQ1Mzg5LDkuMjEyNjg2IDQuNiw2LjYxMjU1OSBBIDg0LjMzNDg5NCw4NC4zMzQ4OTQgMCAwIDEgMzUuODkzODQsNS42MDQ4MTggYyAzMy42MDE2NSw1LjIyMzMzMiA1OC4yNzk3OCwyMy4yMzk1OTQgNzMuNTI2NjgsNTMuOTY0MTg0IDEuOTUzOTQsMy45Mzg2NSA0LjM2MTc1LDMuMjM4NjIgNy4yNDY1MSwyLjQ2OTM1IHEgMzUuNjMyNTEsLTkuNDU0MzEgNTQuMjMzNDIsLTQxLjU0MDQ5OCBjIDEuMzc2OTksLTIuMzY5MzQ3IDIuMDUzOTUsLTUuNDYxODA2IDYuMTA3OTksLTMuNjAwMTc2IDMuMjY5MzksMS40OTIzOCA2LjQ5MjYzLDEuNzkyMzk1IDUuOTYxODMsNy4yMjM0MyAtMS4yNjE2LDEyLjk5Mjk0NCA1LjAwMDI1LDIzLjIwODgzNCAxNy4wMzE2LDI4LjEwOTA3NCA0Ljk0NjQsMi4wMjMxNyAyLjY5MjQ0LDUuMjAwMjUgMi42NjE2Nyw4LjE3NzMyIDAsMy41OTI0OCAtMi41MDc4MSwzLjU4NDc5IC01LjE2OTQ4LDMuNjYxNzIgLTM5LjA0ODA3LDEuMTE1NDQgLTY5LjkxMTExLDI0LjYxNjU4IC04MS44MjcwOCw2Mi4xNjQ1NjggLTEuNTE1NDYsNC43Njk0NyAtMy4zNDYzMiw1LjA1NDEgLTEwLjkzMTMsMS4zOTIzOCB6IE0gMjAuMTE2MTQsMTYuMDY2ODY4IEMgMjcuMDM5NTYsNDIuMTIxOTkyIDc2Ljc0Miw3MS44MzExMzIgOTkuMTczODYsNjMuMzMwNzIyIDg2LjMxOTM5LDMyLjI5MDczMiA0Ny40NzkwMiwxMS43MzU4ODcgMjAuMTE2MTQsMTYuMDY2ODY4IFogbSAxNTIuMDQ1OTEsMjEuNjQ3MjE0IGMgLTE0LjkyMzgxLDE4LjY1NDc2IC0zMy45MDE2NiwzMC4zNzA3MiAtNTYuOTI1ODYsMzUuNTE3MTIgMS4zNDYyMiw3LjEwMDM1IDIuNTg0NzQsMTMuNjMxNDQgNC4wMzg2NiwyMS4yNzc5NyAxNi4zNTQ2NCwtMjEuOTg1NjkgMzcuMTQ3OTcsLTM0Ljg0MDE3IDYyLjgwMzA3LC0zOS43MTczMyB6IiBpZD0icGF0aDYiIHN0eWxlPSJzdHJva2Utd2lkdGg6MC43NjkyNjgiIGlua3NjYXBlOmV4cG9ydC14ZHBpPSIxNjAuMzEiIGlua3NjYXBlOmV4cG9ydC15ZHBpPSIxNjAuMzEiLz4KPC9zdmc+" preserveAspectRatio="none" /></g><g transform="translate(350.4394444317485, -15.000000016480442) rotate(0, 0.005, 0)" width="0.01" height="36.01"><text text-decoration="none" x="0.005" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="14"></text><text text-decoration="none" x="0.005" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="32"></text></g></g><g id="nbYeWWaFGgw"><g transform="translate(-49.999999999999886 50.00000000000006)"><rect x="0" y="0" width="290.00000000000006" height="150.00000000000028" rx="4" ry="4" fill="rgb(131,230,255)" stroke="#83e6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/><path d="M 0 28 a 0,0 0 0 1 0,0 h 290.00000000000006 a 0,0 0 0 1 0,0 v 118.00000000000028 a 4,4 0 0 1 -4,4 h -282.00000000000006 a 4,4 0 0 1 -4,-4 z" fill="rgb(255,255,255)" stroke="#83e6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0" /><ellipse cx="15" cy="14" rx="5" ry="5" fill="rgb(233,94,106)" stroke="#E95E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/></g><g transform="translate(94.99500000000015, 55.00000000000006) rotate(0, 0.005, 0)" width="0.01" height="18"><text text-decoration="none" x="0.005" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="15"></text></g></g><g id="ePXLlld9n7B"><g transform="translate(-25 60.000000000000114)"><rect x="0" y="0" width="240" height="160" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/></g><g transform="translate(-11.549999999999997, 70.00000000000011) rotate(0, 106.55, 0)" width="213.1" height="131"><text text-decoration="none" x="0.003124999999997158" fill="#4b4b4b" font-weight="bold" font-size="72pt" font-family="noto_regular"  y="103">SaaS</text><text text-decoration="none" x="213.096875" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="103"></text></g></g><g id="j8DQ0Fnfc9t"><g transform="translate(-15 40.00000000000006)"><rect x="0" y="0" width="220" height="50" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/></g><g transform="translate(-2.3700000000000045, 50.00000000000006) rotate(0, 97.37, 0)" width="194.74" height="25"><text text-decoration="none" x="0.0028125000000045475" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">Software&#160;</text><text text-decoration="none" x="82.9090625" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">as&#160;</text><text text-decoration="none" x="107.1746875" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">a&#160;</text><text text-decoration="none" x="122.5028125" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">Solution</text><text text-decoration="none" x="194.7371875" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="20"></text></g></g><g id="3HpSTFpBkhW"><g transform="translate(480.0000000000001 140.0000000000001)"><rect x="0" y="0" width="290.00000000000006" height="150.00000000000028" rx="4" ry="4" fill="rgb(155,255,174)" stroke="#9bffae" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/><path d="M 0 28 a 0,0 0 0 1 0,0 h 290.00000000000006 a 0,0 0 0 1 0,0 v 118.00000000000028 a 4,4 0 0 1 -4,4 h -282.00000000000006 a 4,4 0 0 1 -4,-4 z" fill="rgb(255,255,255)" stroke="#9bffae" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0" /><ellipse cx="15" cy="14" rx="5" ry="5" fill="rgb(233,94,106)" stroke="#E95E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/></g><g transform="translate(624.9950000000002, 145.0000000000001) rotate(0, 0.005, 0)" width="0.01" height="18"><text text-decoration="none" x="0.005" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="15"></text></g></g><g id="wRZKKkgf9tS"><g transform="translate(505.00000000000034 150.0000000000001)"><rect x="0" y="0" width="240" height="160" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/></g><g transform="translate(515.7550000000003, 160.0000000000001) rotate(0, 109.245, 0)" width="218.49" height="131"><text text-decoration="none" x="0.0028125000000045475" fill="#4b4b4b" font-weight="bold" font-size="72pt" font-family="noto_regular"  y="103">PaaS</text><text text-decoration="none" x="218.4871875" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="103"></text></g></g><g id="W4Lsgygl7cU"><g transform="translate(515.0000000000001 130)"><rect x="0" y="0" width="220" height="50" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/></g><g transform="translate(528.5750000000002, 140) rotate(0, 96.425, 0)" width="192.85" height="25"><text text-decoration="none" x="0.003124999999997158" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">Platform&#160;</text><text text-decoration="none" x="81.01875" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">as&#160;</text><text text-decoration="none" x="105.284375" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">a&#160;</text><text text-decoration="none" x="120.6125" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">Solution</text><text text-decoration="none" x="192.846875" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="20"></text></g></g><g id="TWDjsV3XleL"><g transform="translate(-49.999999999999886 290.0000000000001)"><rect x="0" y="0" width="290.00000000000006" height="150.00000000000028" rx="4" ry="4" fill="rgb(255,40,40)" stroke="#ff2828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/><path d="M 0 28 a 0,0 0 0 1 0,0 h 290.00000000000006 a 0,0 0 0 1 0,0 v 118.00000000000028 a 4,4 0 0 1 -4,4 h -282.00000000000006 a 4,4 0 0 1 -4,-4 z" fill="rgb(255,255,255)" stroke="#ff2828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0" /><ellipse cx="15" cy="14" rx="5" ry="5" fill="rgb(233,94,106)" stroke="#E95E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/></g><g transform="translate(94.99500000000015, 295.0000000000001) rotate(0, 0.005, 0)" width="0.01" height="18"><text text-decoration="none" x="0.005" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="15"></text></g></g><g id="53qF6hSTQEX"><g transform="translate(-14.999999999999886 300.0000000000001)"><rect x="0" y="0" width="220" height="160" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/></g><g transform="translate(-1.4699999999998852, 310.0000000000001) rotate(0, 96.47, 0)" width="192.94" height="131"><text text-decoration="none" x="0.0012499999999988631" fill="#4b4b4b" font-weight="bold" font-size="72pt" font-family="noto_regular"  y="103">IaaS</text><text text-decoration="none" x="192.93875" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="103"></text></g></g><g id="8Z2kwy8LGxm"><g transform="translate(-34.999999999999886 280)"><rect x="0" y="0" width="260" height="50" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/></g><g transform="translate(-24.749999999999886, 290) rotate(0, 119.75, 0)" width="239.5" height="25"><text text-decoration="none" x="0" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">Infrastructure&#160;</text><text text-decoration="none" x="127.671875" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">as&#160;</text><text text-decoration="none" x="151.9375" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">a&#160;</text><text text-decoration="none" x="167.265625" fill="#ffffff" font-weight="bold" font-size="14pt" font-family="noto_regular"  y="20">Solution</text><text text-decoration="none" x="239.5" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="20"></text></g></g><g id="mALUV4DRNCH"><g transform="translate(299.9999999999999 400.0000000000003)"><rect x="0" y="0" width="290.00000000000006" height="120.00000000000543" rx="4" ry="4" fill="rgb(120,255,243)" stroke="#78fff3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/><path d="M 0 28 a 0,0 0 0 1 0,0 h 290.00000000000006 a 0,0 0 0 1 0,0 v 88.00000000000543 a 4,4 0 0 1 -4,4 h -282.00000000000006 a 4,4 0 0 1 -4,-4 z" fill="rgb(255,255,255)" stroke="#78fff3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0" /><ellipse cx="15" cy="14" rx="5" ry="5" fill="rgb(233,94,106)" stroke="#E95E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/></g><g transform="translate(444.99499999999995, 405.0000000000003) rotate(0, 0.005, 0)" width="0.01" height="18"><text text-decoration="none" x="0.005" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="15"></text></g></g><g id="5lLlXRB5s6t"><g transform="translate(310.00000000000034 420.00000000000335)"><rect x="0" y="0" width="270" height="110" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"  stroke-dasharray="0 0"/></g><g transform="translate(320.82500000000033, 430.00000000000335) rotate(0, 124.175, 0)" width="248.35" height="87"><text text-decoration="none" x="0.003124999999997158" fill="#4b4b4b" font-weight="bold" font-size="48pt" font-family="noto_regular"  y="68">ON-SITE</text><text text-decoration="none" x="248.346875" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="68"></text></g></g><g id="EewxceGZU6f"><g><path d="M 345,-30 L 345.0000000000002,355.0000000000002 Q 345.0000000000002,365.0000000000002 335.0000000000002,365.0000000000002 L 240,365" fill="none" stroke="#D94753" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/><path d="M 345,-30 L 339.25,-21.304347826086953 L 350.75,-21.304347826086953 Z" fill="rgb(217,71,83)" stroke="#D94753" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M 240,365 L 248.69565217391303,370.75 L 248.69565217391303,359.25 Z" fill="rgb(217,71,83)" stroke="#D94753" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><g id="gVObDdmAs2Y"><g><path d="M 445,400 L 445,265.10125426321207 Q 445,255.10125426321207 435.0000395538773,255.07312819023645 L 409,255 L 382.9999604461227,255.07312819023645 Q 373,255.10125426321207 373,245.10125426321207 L 373,-30" fill="none" stroke="#CC7ADA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/><path d="M 445,400 L 450.75,391.30434782608694 L 439.25,391.30434782608694 Z" fill="rgb(204,122,218)" stroke="#CC7ADA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M 373,-30 L 367.25,-21.304347826086953 L 378.75,-21.304347826086953 Z" fill="rgb(204,122,218)" stroke="#CC7ADA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><g id="uzcVWKMXUFy"><g><path d="M 314,-30 L 313.69439606976573,115.00002221008877 Q 313.6733199866847,125.0000000000002 303.6733199866847,125.00000000000017 L 240,125" fill="none" stroke="#0995CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/><path d="M 314,-30 L 308.25,-21.304347826086953 L 319.75,-21.304347826086953 Z" fill="rgb(9,149,206)" stroke="#0995CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M 240,125 L 248.69565217391303,130.75 L 248.69565217391303,119.25 Z" fill="rgb(9,149,206)" stroke="#0995CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><g id="KG6fJuyy1IF"><g><path d="M 480,215 L 412.81943606548424,215.00000000000023 Q 402.81943606548424,215.00000000000026 402.82680601999357,205.0000027158121 L 403,-30" fill="none" stroke="#43A047" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 0"/><path d="M 480,215 L 471.30434782608694,209.25 L 471.30434782608694,220.75 Z" fill="rgb(67,160,71)" stroke="#43A047" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M 403,-30 L 397.25,-21.304347826086953 L 408.75,-21.304347826086953 Z" fill="rgb(67,160,71)" stroke="#43A047" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g></svg>

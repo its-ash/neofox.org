@@ -127,7 +127,8 @@
                 <NuxtLink :to="{name:'mobile-development'}" class="fw-bold"> Mobile Solution</NuxtLink>
                 <span class="submenu-arrow"></span>
                 <ul class="submenu">
-                  <li><a href="" class="sub-menu-item"></a></li>
+                  <li><a href="" class="sub-menu-item">Flutter</a></li>
+                  <li><a href="" class="sub-menu-item">React Native</a></li>
                 </ul>
               </li>
               <li class="has-submenu parent-menu-item">
@@ -157,19 +158,25 @@
                 <NuxtLink :to="{name:'cloud-server'}" class="fw-bold">Cloud Solution</NuxtLink>
                 <span class="submenu-arrow"></span>
                 <ul class="submenu">
-                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>
-                  <li><a href="" class="sub-menu-item">Server/Load balancer</a></li>
-                  <li><a href="" class="sub-menu-item">Microservices</a></li>
-                  <li><a href="" class="sub-menu-item">Database</a></li>
-                  <li><a href="" class="sub-menu-item">Security (DDoS)</a></li>
-                  <li><a href="" class="sub-menu-item">Business Email</a></li>
+                  <li><a href="" class="sub-menu-item">SaaS</a></li>
+                  <li><a href="" class="sub-menu-item">IaaS</a></li>
+                  <li><a href="" class="sub-menu-item">PaaS</a></li>
+<!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Server/Load balancer</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Microservices</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Database</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Security (DDoS)</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Business Email</a></li>-->
                 </ul>
               </li>
               <li class="has-submenu parent-menu-item">
-                <NuxtLink :to="{name:'dev-ops'}" class="fw-bold"> Dev/Ops</NuxtLink>
+                <NuxtLink :to="{name:'dev-ops'}" class="fw-bold">Dev/Ops</NuxtLink>
                 <span class="submenu-arrow"></span>
                 <ul class="submenu">
-                  <li><a href="" class="sub-menu-item">Source Control</a></li>
+                  <li><a href="" class="sub-menu-item">Gitlab</a></li>
                   <li><a href="" class="sub-menu-item">Configuration Management</a></li>
                   <li><a href="" class="sub-menu-item">Continuous Integration</a></li>
                   <li><a href="" class="sub-menu-item">Automated Testing</a></li>

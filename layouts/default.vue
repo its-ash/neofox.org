@@ -2,7 +2,7 @@
   <main>
     <client-only>
       <BaseHeader class="front-2"></BaseHeader>
-      <Nuxt class="front-1 position-relative mt-4"/>
+      <Nuxt class="front-1 position-relative mt-md-4 mt-5 pt-md-0 pt-4"/>
       <BaseFooter class="back-1"></BaseFooter>
     </client-only>
   </main>
@@ -22,3 +22,4 @@ html, body {
   overflow-x: hidden;
 }
 </style>
+

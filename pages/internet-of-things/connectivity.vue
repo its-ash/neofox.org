@@ -6,7 +6,9 @@
         <div class="row align-items-center">
           <div class="col-md-6 col-12">
             <div class="title-heading">
-              <span class="badge rounded-pill bg-soft-primary">Development</span>
+              <NuxtLink class="badge rounded-pill bg-soft-primary" :to="{name: 'internet-of-things'}">
+                Internet Of Things
+              </NuxtLink>
               <h1 class="fw-bold mt-2 mb-3">A Complete <br> Developer Toolset</h1>
               <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
                 managing conversion centered bootstrap v5 html page.</p>
@@ -18,8 +20,8 @@
             </div>
           </div><!--end col-->
 
-          <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
-            <img src="/svg/flow-chart/iot-connectivity.svg" class="img-fluid d-block mx-auto p-5" alt="">
+          <div class="col-md-6">
+            <img src="/svg/flow-chart/iot-connectivity.svg" class="img-fluid d-block mx-auto" alt="">
           </div><!--end col-->
         </div><!--end row-->
       </div> <!--end container-->
