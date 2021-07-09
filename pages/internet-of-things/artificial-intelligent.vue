@@ -6,17 +6,24 @@
         <div class="row align-items-center">
           <div class="col-md-6 col-12 order-md-1 order-2">
             <div class="title-heading">
-              <NuxtLink class="badge rounded-pill bg-soft-primary" :to="{name: 'internet-of-things'}">
+              <NuxtLink class="badge rounded-pill text-light-dark " :to="{name: 'internet-of-things'}">
                 Internet Of Things
               </NuxtLink>
-              <h1 class="fw-bold mt-2 mb-3">A Complete <br> Developer Toolset</h1>
-              <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
-                managing conversion centered bootstrap v5 html page.</p>
+              <h1 class="fw-bold mt-2 mb-3 line-10 text-uppercase">
+                Artificial intelligence <br> of
+                <span class="line text-danger" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="Internet of Things">Things</span></h1>
+              <p class="para-desc text-light-dark">The fundamental explanation for consolidating AI with IoT is, while
+                IoT
+                gadgets effectively collect all the information and moving it to normally cloud or whatever other space
+                where information can be aggregated through the web.
+              </p>
+
               <div class="mt-4 pt-2">
                 <NuxtLink :to="{name:'contact'}" class="btn btn-primary me-2">Get Started</NuxtLink>
-                <a href="javascript:void(0)" class="btn btn-outline-primary">Documentation</a>
+                <a href="#FAQS" class="btn btn-outline-primary">FAQ</a>
               </div>
-              <p class="text-muted mb-0 mt-3">Current Version: v3.0.0</p>
+              <!--              <p class="text-muted mb-0 mt-3">Current Version: v3.0.0</p>-->
             </div>
           </div><!--end col-->
 
@@ -46,9 +53,17 @@
           <div class="col-12">
             <div class="section-title mb-4 pb-2">
               <h2 class="title mb-4">Key Features</h2>
-              <p class="para-desc text-muted mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
-                that can provide everything you need to generate awareness, drive traffic, connect.</p>
+              <p class="text-light-dark mb-0 para-desc">
+                The central clarification for merging
+                <span class="line text-primary fw-bold" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="Artificial intelligence">AI</span>
+                with IoT is, while
+                IoT devices adequately gather all the data and moving it to ordinarily cloud or whatever other space
+                where data can be amassed through the web. </p>
+              <p class="text-light-dark mb-0 para-desc">AI, which is considered as the frontal cortex of A IoT is
+                what truly helps in unique and reenacting the machines to act or respond.</p>
             </div>
+
           </div><!--end col-->
         </div><!--end row-->
 
@@ -56,7 +71,7 @@
           <div class="col-lg-3 col-md-6 mt-4 pt-2">
             <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow">
               <div class="icons text-primary text-center">
-                <i class="uil uil-layer-group d-block rounded h3 mb-0"></i>
+                <img src="/svg/icons/Delete%20User.svg" class="d-block rounded h3 mb-0 w-25" alt="">
               </div>
               <div class="card-body p-0 mt-4">
                 <a href="javascript:void(0)" class="title h5 text-dark">Modular</a>
@@ -115,18 +130,34 @@
         </div><!--end row-->
       </div><!--end container-->
 
-      <div class="container mt-100 mt-60">
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="section-title text-center mb-4 pb-2">
-              <h3 class="text-primary">Quickstart</h3>
-              <h4 class="title mb-4">Awesome isn't it? Let's dive in!</h4>
-              <p class="para-desc mx-auto text-muted mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
-                that can provide everything you need to generate awareness, drive traffic, connect.</p>
-            </div>
-          </div><!--end col-->
-        </div><!--end row-->
-      </div><!--end container-->
+      <div class="container pt-5">
+        <div class="row d-flex align-items-center pt-5">
+          <div class="col-md-7 col-12">
+            <h3 class="py-5 h2 line-15 text-dark">
+              AI, which is considered as the cerebrum of AIoT is
+              the thing that really helps in dynamic and recreating the machines to act or react.
+            </h3>
+          </div>
+          <div class="col-5 d-none d-md-block">
+            <img src="/images/illustrator/app.svg" class="w-100" alt="">
+          </div>
+        </div>
+      </div>
+      <FaqContainer :title="'Faq'"></FaqContainer>
+
+
+      <!--      <div class="container py-5 bg-gray" id="FAQS">-->
+      <!--        <div class="row py-5">-->
+      <!--          <h2>FAQs</h2>-->
+      <!--          <div class="col-7">-->
+      <!--            <FAQ :data="faq"></FAQ>-->
+      <!--          </div>-->
+      <!--          <div class="offset-1 col-4">-->
+      <!--            <img src="/images/illustrator/app_development_SVG.svg" class="w-100" alt="">-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </div>-->
+
     </section><!--end section-->
     <!-- End -->
   </section>
@@ -135,9 +166,11 @@
 <script>
 import TechList from "@/components/TechList";
 import {bootstrap} from "@/plugins/script.client";
+import FaqContainer from "~/components/faq/FaqContainer";
 
 export default {
-  components: {TechList},
+  components: {TechList, FaqContainer},
+  data: () => ({}),
   mounted() {
     bootstrap();
   }

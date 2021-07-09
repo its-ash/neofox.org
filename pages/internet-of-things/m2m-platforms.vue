@@ -6,12 +6,19 @@
         <div class="row align-items-center">
           <div class="col-md-6 col-12">
             <div class="title-heading">
-              <NuxtLink class="badge rounded-pill bg-soft-primary" :to="{name: 'internet-of-things'}">
+              <NuxtLink class="badge rounded-pill text-light-dark" :to="{name: 'internet-of-things'}">
                 Internet Of Things
               </NuxtLink>
-              <h1 class="fw-bold mt-2 mb-3">A Complete <br> Developer Toolset</h1>
-              <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
-                managing conversion centered bootstrap v5 html page.</p>
+              <h1 class="fw-bold mt-2 mb-3">
+                Machine <span class="text-primary">to</span> Machine
+              </h1>
+              <p class="text-light-dark noto-sans fw-light">We work with you to select the right solutions and
+                commercial structure
+                based on the specific requirements of your application – ensuring that your devices communicate <span
+                  class="text-danger">securely</span>
+                and <span class="text-success">reliably</span>.</p>
+
+
               <div class="mt-4 pt-2">
                 <a href="javascript:void(0)" class="btn btn-primary me-2">Get Started</a>
                 <a href="javascript:void(0)" class="btn btn-outline-primary">Documentation</a>
@@ -45,8 +52,11 @@
           <div class="col-12">
             <div class="section-title mb-4 pb-2">
               <h4 class="title mb-4">Key Features</h4>
-              <p class="para-desc text-muted mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
-                that can provide everything you need to generate awareness, drive traffic, connect.</p>
+              <p class="text-light-dark para-desc">
+                Precise solutions depend on factors from location to data usage, and whether the device is static,
+                mobile, local, or international. We also consider the deployment scale and duration as well as the
+                importance of being ‘always on’, which can be essential for mission-critical applications.
+              </p>
             </div>
           </div><!--end col-->
         </div><!--end row-->

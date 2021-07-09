@@ -342,15 +342,15 @@
         </div><!--end col-->
       </div><!--end row-->
     </div>
-    <FAQ :data="question" title="Hello"></FAQ>
+    <FaqContainer></FaqContainer>
   </section>
 </template>
 
 <script>
-import FAQ from "@/components/FAQ";
+import FaqContainer from "~/components/faq/FaqContainer";
 
 export default {
-  components: {FAQ},
+  components: {FaqContainer},
   name: "data-science",
   data: () => ({
     question: {'lorem1': 'ans1', 'lorem2': 'ans1', 'lorem3': 'ans1', 'lorem4': 'ans1',}

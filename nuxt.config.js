@@ -47,7 +47,7 @@ export default {
     __dangerouslyDisableSanitizers: ['script', 'innerHTML'],
   },
   css: ["@/assets/scss/style.scss"],
-  plugins: ['~/plugins/filters','~/plugins/functions'],
+  plugins: ['~/plugins/filters', '~/plugins/functions'],
   components: true,
   buildModules: [],
   modules: [

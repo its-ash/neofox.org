@@ -312,35 +312,19 @@
         </div><!--end row-->
       </div><!--end container-->
     </section>
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-7">
-            <h3>Question</h3>
-            <FAQ :data="faq"></FAQ>
-          </div>
-        </div>
-      </div>
-    </section>
+    <FaqContainer></FaqContainer>
   </section>
 </template>
 
 <script>
-import FAQ from "@/components/FAQ";
+import FaqContainer from "~/components/faq/FaqContainer";
 import TechList from "@/components/TechList";
 import {bootstrap} from "@/plugins/script.client";
 
 export default {
   name: "internet-of-things",
-  components: {FAQ, TechList},
-  data: () => ({
-    faq: {
-      'There is no such thing as integers.': 'We are talking about numbers with no decimals here',
-      'There is no such thing as JavaScript.': 'We are talking about numbers with no decimals here',
-      'There is no such thing as JavaScript integers.': 'We are talking about numbers with no decimals here',
-      'There is no such as JavaScript integers.': 'We are talking about numbers with no decimals here'
-    }
-  }),
+  components: {FaqContainer, TechList},
+  data: () => ({}),
   mounted() {
     bootstrap();
   }
