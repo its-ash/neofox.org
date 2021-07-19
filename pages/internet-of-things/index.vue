@@ -318,8 +318,8 @@
 
 <script>
 import FaqContainer from "~/components/faq/FaqContainer";
-import TechList from "@/components/TechList";
 import {bootstrap} from "@/plugins/script.client";
+import TechList from "@/components/Blocks/TechList";
 
 export default {
   name: "internet-of-things",
