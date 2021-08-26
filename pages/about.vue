@@ -17,14 +17,21 @@
 
           <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
             <div class="section-title ms-lg-4">
-              <h4 class="title mb-4">Our Story</h4>
-              <p class="text-muted">Start working with <span class="text-primary fw-bold">Landrick</span> that can
-                provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is
-                used in the publishing industry or by web designers to occupy the space which will later be filled with
-                'real' content. This is required when, for example, the final text is not yet available. Dummy texts
-                have been in use by typesetters since the 16th century.</p>
-              <a href="javascript:void(0)" class="btn btn-primary mt-3">Buy Now <i
-                class="uil uil-angle-right-b"></i></a>
+              <h1>Our Story</h1>
+              <h4 class="title mb-4">We merge imagination and technology to help brands grow in an age of digital
+                transformation.</h4>
+              <p class="text-muted">We have been in the business for right around three years now and our involved way
+                to deal with innovation and the executives has reinforced associations with customers and partners. We
+                have a group of specialists who investigate the client's necessities and endeavor to guarantee that a
+                guide is imparted to the client utilizing the most recent innovation.
+                <br> <br>
+                Our group has long periods of involvement and demonstrated mechanical abilities in Digital
+                Transformation Consulting, AI, Blockchain,
+                IoT, and Architecture and Code Review, Cutting-edge Software Development, Independent Software Testing,
+                Business and Technology Acceleration, UI/UX Design, 3D turn of events and, realistic plans. With our
+                significant experience and aptitude, we will organize the computerized change of your organization
+                utilizing cutting-edge innovation admirably.
+              </p>
             </div>
           </div><!--end col-->
         </div><!--end row-->
@@ -163,219 +170,78 @@
         <div class="row">
           <div class="col-12 text-center">
             <div class="section-title mb-4 pb-2">
-              <h4 class="title">Team #1</h4>
+              <h2 class="title">Our Team</h2>
             </div>
           </div><!--end col-->
         </div><!--end row-->
 
         <div class="row">
           <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card team text-center border-0">
+            <div class="card text-center border-0">
               <div class="position-relative">
                 <img src="images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                </ul><!--end icon-->
+              </div>
+              <div class="card-body py-3 px-0 content">
+                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Alok Pandey</a></h5>
+                <small class="designation text-muted">Data Scientist</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 pt-2">
+            <div class="card text-center border-0">
+              <div class="position-relative">
+                <img src="images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
+              </div>
+              <div class="card-body py-3 px-0 content">
+                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Ashvini Jangid</a></h5>
+                <small class="designation text-muted">Developer</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 pt-2">
+            <div class="card text-center border-0">
+              <div class="position-relative">
+                <img src="images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
+              </div>
+              <div class="card-body py-3 px-0 content">
+                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Riya Mahay</a></h5>
+                <small class="designation text-muted">Designer</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 pt-2">
+            <div class="card text-center border-0">
+              <div class="position-relative">
+                <img src="images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
               </div>
               <div class="card-body py-3 px-0 content">
                 <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Ronny Jofra</a></h5>
                 <small class="designation text-muted">C.E.O</small>
               </div>
             </div>
-          </div><!--end col-->
-
+          </div>
           <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card team text-center border-0">
+            <div class="card text-center border-0">
               <div class="position-relative">
-                <img src="images/client/04.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                </ul><!--end icon-->
+                <img src="images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
               </div>
               <div class="card-body py-3 px-0 content">
-                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Micheal Carlo</a></h5>
-                <small class="designation text-muted">Director</small>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card team text-center border-0">
-              <div class="position-relative">
-                <img src="images/client/02.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                </ul><!--end icon-->
-              </div>
-              <div class="card-body py-3 px-0 content">
-                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Aliana Rosy</a></h5>
-                <small class="designation text-muted">Manager</small>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card team text-center border-0">
-              <div class="position-relative">
-                <img src="images/client/03.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                </ul><!--end icon-->
-              </div>
-              <div class="card-body py-3 px-0 content">
-                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Sofia Razaq</a></h5>
-                <small class="designation text-muted">Developer</small>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card team text-center border-0">
-              <div class="position-relative">
-                <img src="images/client/06.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                </ul><!--end icon-->
-              </div>
-              <div class="card-body py-3 px-0 content">
-                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Calvin Carlo</a></h5>
+                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Ronny Jofra</a></h5>
                 <small class="designation text-muted">C.E.O</small>
               </div>
             </div>
-          </div><!--end col-->
-
+          </div>
           <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card team text-center border-0">
+            <div class="card text-center border-0">
               <div class="position-relative">
-                <img src="images/client/05.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                </ul><!--end icon-->
+                <img src="images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
               </div>
               <div class="card-body py-3 px-0 content">
-                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Juhi Chawla</a></h5>
-                <small class="designation text-muted">Director</small>
+                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Ronny Jofra</a></h5>
+                <small class="designation text-muted">C.E.O</small>
               </div>
             </div>
-          </div><!--end col-->
-
-          <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card team text-center border-0">
-              <div class="position-relative">
-                <img src="images/client/07.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                </ul><!--end icon-->
-              </div>
-              <div class="card-body py-3 px-0 content">
-                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Arlo Walker</a></h5>
-                <small class="designation text-muted">Manager</small>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card team text-center border-0">
-              <div class="position-relative">
-                <img src="images/client/08.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                  <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin"
-                                                                                               class="fea icon-sm fea-social"></i></a>
-                  </li>
-                </ul><!--end icon-->
-              </div>
-              <div class="card-body py-3 px-0 content">
-                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Randeep Huda</a></h5>
-                <small class="designation text-muted">Developer</small>
-              </div>
-            </div>
-          </div><!--end col-->
+          </div>
         </div><!--end row-->
 
       </div><!--end container-->

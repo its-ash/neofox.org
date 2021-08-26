@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <footer>
+  <section id="footer">
+    <footer >
       <div class="container pt-5 mt-5 text-success">
         <div class="row py-5">
           <div class="col-lg-4 col-md-6 col-md-4 col-10 mb-0 mb-md-4 pb-0 pb-md-2">
@@ -10,16 +10,6 @@
             <p class="mt-4">Start working with Landrick that can provide everything you need to generate awareness,
               drive
               traffic, connect.</p>
-            <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
-              <li class="list-inline-item"><a href="" class="rounded"></a>
-              </li>
-              <li class="list-inline-item"><a href="" class="rounded"></a>
-              </li>
-              <li class="list-inline-item"><a href="" class="rounded"></a>
-              </li>
-              <li class="list-inline-item"><a href="" class="rounded"></a>
-              </li>
-            </ul><!--end icon-->
           </div><!--end col-->
           <div class="col-lg-5 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
             <h3 class="footer-head h3 text-secondary">Company</h3>

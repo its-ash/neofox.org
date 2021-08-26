@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-half bg-white d-table w-100">
+  <section class="bg-white h-100-center w-100 position-relative">
     <div class="container py-xl-5 py-lg-2 py-md-5">
       <div class="row align-items-center">
         <div class="col-md-6 col-12 order-md-1 order-2">
@@ -11,9 +11,8 @@
             <h1 class="fw-bold display-2 mt-2 mb-3 line-10 hero-title">The <span
               class="line text-success hover-effect">Best</span>
               <br>IT Solution</h1>
-            <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing
-              and
-              managing conversion centered bootstrap v5 html page.</p>
+            <p class="para-desc text-muted">We merge creative minds and innovation to help brands grow in an age of
+              digital transformation.</p>
             <div class="mt-4 pt-2">
               <a href="" class="btn btn-primary me-2">Get Started</a>
               <a href="" class="btn btn-outline-primary">Documentation</a>

@@ -3,7 +3,7 @@
     <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
          v-for="(answer,question) in data" class="accordion-item mt-3 rounded shadow-sm border-primary border-0">
       <h2 itemprop="name" class="accordion-header " :id="answer | slug">
-        <button class="accordion-button border-0 collapsed py-2" type="button"
+        <button class="accordion-button border-0 collapsed py-2 text-success noto-sans" type="button"
                 data-bs-toggle="collapse"
                 :data-bs-target="'#' + question | slug" aria-expanded="false"
                 :aria-controls="question | slug">
@@ -12,10 +12,9 @@
       </h2>
       <div :id="question|slug" class="accordion-collapse border-0 collapse" :aria-labelledby="answer|slug"
            :data-bs-parent="'#_'+uuid">
-        <div class="accordion-body bg-white"
+        <div class="accordion-body bg-white text-dark"
              itemscope itemprop="acceptedAnswer"
-             itemtype="https://schema.org/Answer">
-          {{ answer }}
+             itemtype="https://schema.org/Answer" v-html="answer">
         </div>
       </div>
     </div>

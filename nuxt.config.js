@@ -66,6 +66,11 @@ export default {
   axios: {},
   content: {},
   build: {
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-private-property-in-object', {loose: true}]
+      ]
+    }
     // extractCSS: true
   },
   sitemap: {

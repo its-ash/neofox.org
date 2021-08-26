@@ -1,19 +1,21 @@
 <template>
   <section class="position-relative bg-light">
-
-    <!-- Hero Start -->
-    <section class="bg-half-170 border-bottom agency-wrapper d-table w-100">
+    <section class="w-100 h-100-center">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 col-md-7 order-1 order-md-2">
             <div class="title-heading mt-4 ms-lg-5">
-              <h1 class="heading mb-3">We are Startup Creative <span class="text-primary">Landrick</span> Agency</h1>
-              <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
-                managing conversion centered bootstrap v5 html page.</p>
+              <h1 class="heading mb-3 line-12">
+                Remarkable
+                <span class="text-primary">Advertising</span> agencies with the abilities to help you with everything
+                progressed.
+              </h1>
+              <p class="para-desc text-muted h3">We go for assortment over sum, and quality results are passed on by
+                essentially the best people. </p>
               <div class="mt-4 pt-2">
                 <a href="javascript:void(0)" class="btn btn-primary m-1">Learn More <i
                   class="uil uil-angle-right-b"></i></a>
-                <a href="#!" data-type="youtube" data-id="yba7hPeTSjk"
+                <a href="#" data-type="youtube" data-id="yba7hPeTSjk"
                    class="btn btn-icon btn-pills btn-primary m-1 lightbox"><i data-feather="video"
                                                                               class="icons"></i></a><span
                 class="fw-bold text-uppercase small align-middle ms-1">Watch Now</span>
@@ -22,222 +24,80 @@
           </div><!--end col-->
 
           <div class="col-lg-5 col-md-5 order-2 order-md-1 mt-4 pt-2 mt-sm-0 pt-sm-0">
-            <img src="images/illustrator/working_with_computer.svg" class="img-fluid" alt="">
+            <img src="/images/illustrator/working_with_computer.svg" class="img-fluid" alt="">
           </div>
         </div><!--end row-->
       </div><!--end container-->
     </section><!--end section-->
     <!-- Hero End -->
 
-    <!-- Feature Start -->
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-12">
-            <div class="features text-center">
-              <div class="image position-relative d-inline-block">
-                <i class="uil uil-edit-alt h1 text-primary"></i>
-              </div>
+    <KeyFeatures :features="features">
+      <p>
+        Digital marketing is the promotion of products/services via various
+        <span class="line text-primary fw-bold"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Artificial intelligence">forms</span> of electronic media,
+        mainly based on the internet.
+      </p>
 
-              <div class="content mt-4">
-                <h5>Design & Development</h5>
-                <p class="text-muted mb-0">Nisi aenean vulputate eleifend tellus vitae eleifend enim a eleifend Aliquam
-                  aenean elementum semper.</p>
-              </div>
-            </div>
-          </div><!--end col-->
+    </KeyFeatures>
 
-          <div class="col-md-4 col-12 mt-5 mt-sm-0">
-            <div class="features text-center">
-              <div class="image position-relative d-inline-block">
-                <i class="uil uil-vector-square h1 text-primary"></i>
-              </div>
-
-              <div class="content mt-4">
-                <h5>Management & Marketing</h5>
-                <p class="text-muted mb-0">Allegedly, a Latin scholar established the origin of the text established by
-                  compiling unusual word.</p>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-md-4 col-12 mt-5 mt-sm-0">
-            <div class="features text-center">
-              <div class="image position-relative d-inline-block">
-                <i class="uil uil-file-search-alt h1 text-primary"></i>
-              </div>
-
-              <div class="content mt-4">
-                <h5>Stratagy & Research</h5>
-                <p class="text-muted mb-0">It seems that only fragments of the original text remain in the Lorem the
-                  original Ipsum texts used today.</p>
-              </div>
-            </div>
-          </div><!--end col-->
-        </div><!--end row-->
-      </div><!--end container-->
-
-      <div class="container mt-100 mt-60">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-md-6">
-            <img src="images/saas/2.png" class="img-fluid" alt="">
-          </div><!--end col-->
-
-          <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
-            <div class="section-title ms-lg-3">
-              <h4 class="title mb-4">Great Product Analytics With Real Problem</h4>
-              <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great
-                importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the
-                distribution of letters visual impact.</p>
-              <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i
-                class="uil uil-angle-right-b align-middle"></i></a>
-            </div>
-          </div><!--end col-->
-        </div><!--end row-->
-      </div><!--end container-->
-    </section><!--end section-->
-    <!-- Feature End -->
+    <div class="container py-5">
+      <div class="row align-items-center py-5">
+        <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+          <div class="section-title me-lg-5">
+            <h4 class="title mb-4 line-13">WHY DO SMALL BUSINESSES NEED SOCIAL MEDIA MARKETING PACKAGES?</h4>
+            <p>Let us look at some of the perfect reasons why small business needs social media
+              marketing packages:</p>
+            <ul class="list-unstyled text-muted">
+              <li class="mb-0 text-dark">
+                <span class="text-primary fw-bold h5 me-2">·</span>Find new and genuine customers
+              </li>
+              <li class="mb-0 text-dark">
+                <span class="text-primary fw-bold h5 me-2">·</span>To spread the word about your products and services
+              </li>
+              <li class="mb-0 text-dark">
+                <span class="text-primary fw-bold h5 me-2">·</span>For better Brand recognition & Trusting in your
+                business.
+              </li>
+              <li class="mb-0 text-dark">
+                <span class="text-primary fw-bold h5 me-2">·</span>Advertise your business, products or services
+              </li>
+              <li class="mb-0 text-dark">
+                <span class="text-primary fw-bold h5 me-2">·</span>Create a community and loyal following
+              </li>
+              <li class="mb-0 text-dark">
+                <span class="text-primary fw-bold h5 me-2">·</span>It’s good for SEO
+              </li>
+            </ul>
+            <NuxtLink :to="{name: 'contact'}" class="mt-3 h6 text-primary">Find Out More <i
+              class="uil uil-angle-right-b"></i></NuxtLink>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 order-1 order-md-2">
+          <img src="/images/illustrator/app_development_SVG.svg" alt="">
+        </div><!--end col-->
+      </div><!--end row-->
+    </div><!--end container-->
 
     <!-- CTA Start -->
-    <section class="section bg-cta" style="background: url('images/1.jpg') center center;">
-      <div class="bg-overlay"></div>
+    <section class="section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
             <div class="section-title">
-              <h4 class="title title-dark text-white mb-4">Stop leaving money on the table.</h4>
-              <p class="text-light para-dark para-desc mx-auto">Start working with Landrick that can provide everything
-                you need to generate awareness, drive traffic, connect.</p>
-              <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="play-btn border border-light mt-4 lightbox">
-                <i data-feather="play" class="fea icon-ex-md text-white title-dark"></i>
-              </a>
+              <h4 class="title title-dark text-dark mb-4">Who We Are?</h4>
+              <p class="para-dark para-desc mx-auto h4 noto-sans">
+                "We develop systems, make huge substance and measure everything to ensure that we offer the sum of our
+                clients ROI, whether or not you're the newbie or an arrangement name in your industry".
+              </p>
             </div>
           </div><!--end col-->
         </div><!--end row-->
       </div><!--end container-->
     </section><!--end section-->
     <!-- CTA End -->
-
-    <!-- Key Feature Start -->
-    <section class="section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center">
-            <div class="section-title mb-4 pb-2">
-              <h4 class="title mb-4">Template Key Features</h4>
-              <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
-                that can provide everything you need to generate awareness, drive traffic, connect.</p>
-            </div>
-          </div><!--end col-->
-        </div><!--end row-->
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mt-4 pt-2">
-            <div class="d-flex key-feature align-items-center p-3 rounded shadow">
-              <div class="icon text-center rounded-circle me-3">
-                <i data-feather="monitor" class="fea icon-ex-md text-primary"></i>
-              </div>
-              <div class="flex-1">
-                <h4 class="title mb-0">Fully Responsive</h4>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-4 col-md-6 mt-4 pt-2">
-            <div class="d-flex key-feature align-items-center p-3 rounded shadow">
-              <div class="icon text-center rounded-circle me-3">
-                <i data-feather="heart" class="fea icon-ex-md text-primary"></i>
-              </div>
-              <div class="flex-1">
-                <h4 class="title mb-0">Browser Compatibility</h4>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-4 col-md-6 mt-4 pt-2">
-            <div class="d-flex key-feature align-items-center p-3 rounded shadow">
-              <div class="icon text-center rounded-circle me-3">
-                <i data-feather="eye" class="fea icon-ex-md text-primary"></i>
-              </div>
-              <div class="flex-1">
-                <h4 class="title mb-0">Retina Ready</h4>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-4 col-md-6 mt-4 pt-2">
-            <div class="d-flex key-feature align-items-center p-3 rounded shadow">
-              <div class="icon text-center rounded-circle me-3">
-                <i data-feather="bold" class="fea icon-ex-md text-primary"></i>
-              </div>
-              <div class="flex-1">
-                <h4 class="title mb-0">Based On Bootstrap 5</h4>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-4 col-md-6 mt-4 pt-2">
-            <div class="d-flex key-feature align-items-center p-3 rounded shadow">
-              <div class="icon text-center rounded-circle me-3">
-                <i data-feather="feather" class="fea icon-ex-md text-primary"></i>
-              </div>
-              <div class="flex-1">
-                <h4 class="title mb-0">Feather Icons</h4>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-4 col-md-6 mt-4 pt-2">
-            <div class="d-flex key-feature align-items-center p-3 rounded shadow">
-              <div class="icon text-center rounded-circle me-3">
-                <i data-feather="code" class="fea icon-ex-md text-primary"></i>
-              </div>
-              <div class="flex-1">
-                <h4 class="title mb-0">Built With SASS</h4>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-4 col-md-6 mt-4 pt-2">
-            <div class="d-flex key-feature align-items-center p-3 rounded shadow">
-              <div class="icon text-center rounded-circle me-3">
-                <i data-feather="user-check" class="fea icon-ex-md text-primary"></i>
-              </div>
-              <div class="flex-1">
-                <h4 class="title mb-0">W3c Valid Code</h4>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-4 col-md-6 mt-4 pt-2">
-            <div class="d-flex key-feature align-items-center p-3 rounded shadow">
-              <div class="icon text-center rounded-circle me-3">
-                <i data-feather="git-merge" class="fea icon-ex-md text-primary"></i>
-              </div>
-              <div class="flex-1">
-                <h4 class="title mb-0">Flaticon Icons</h4>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-4 col-md-6 mt-4 pt-2">
-            <div class="d-flex key-feature align-items-center p-3 rounded shadow">
-              <div class="icon text-center rounded-circle me-3">
-                <i data-feather="settings" class="fea icon-ex-md text-primary"></i>
-              </div>
-              <div class="flex-1">
-                <h4 class="title mb-0">Easy to customize</h4>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-12 mt-4 pt-2 text-center">
-            <a href="javascript:void(0)" class="btn btn-primary">See More <i class="uil uil-angle-right"></i></a>
-          </div><!--end col-->
-        </div><!--end row-->
-      </div><!--end container-->
-    </section><!--end section-->
-    <!-- Key Feature End -->
 
     <!-- Shape Start -->
     <div class="position-relative">
@@ -252,8 +112,37 @@
 </template>
 
 <script>
+import KeyFeatures from "@/components/Blocks/KeyFeatures";
+import {iot_ai_tech_list} from "@/utils/tech_list";
+import {iot_faq} from "@/utils/questions";
+
 export default {
-  name: "digital-market-agency"
+  name: "digital-market-agency",
+  components: {KeyFeatures},
+  data: () => ({
+    techItems: iot_ai_tech_list,
+    features: [
+      {
+        title: "Secure Potential",
+        text: "It helps secure potential customers and broadens your client base.It allows you to communicate with your customers on a one-on-one basis.\n",
+        icon: ""
+      },
+      {
+        title: "Create A Presence",
+        text: "It helps you create a presence on social media with unique and relevant content.", icon: ""
+      },
+      {
+        title: "Posting and Boosting",
+        text: "Experts take care of your social media activities such as posting and boosting.", icon: ""
+      },
+      {
+        title: "Creates Awareness",
+        text: "It creates awareness about your product/services. Uniform content across channels helps maintain a brand identity.",
+        icon: ""
+      },
+    ],
+    FAQ: iot_faq
+  }),
 }
 </script>
 

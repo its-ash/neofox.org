@@ -21,7 +21,7 @@
                         <label class="form-label">Your Email <span class="text-danger">*</span></label>
                         <div class="form-icon position-relative">
                           <i data-feather="mail" class="fea icon-sm icons"></i>
-                          <input name="email" id="email" type="email" class="form-control bg-light"
+                          <input v-model="emailID" name="email" id="email" type="email" class="form-control bg-light"
                                  placeholder="Email :">
                         </div>
                       </div>
@@ -116,11 +116,13 @@ export default {
   data: () => ({
     a: 0,
     b: 0,
-    total: 0
+    total: 0,
+    emailID: '',
   }),
   mounted() {
     this.a = Math.floor(Math.random() * 10);
     this.b = Math.floor(Math.random() * 10);
+    if (this.$route.params['email']) this.emailID = this.$route.params['email'];
   },
   computed: {}
 

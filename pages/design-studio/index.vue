@@ -4,80 +4,141 @@
       <div class="w-100 p-0 m-0">
         <div class="row position-relative align-items-center p-0 m-0">
           <div class="title-heading studio-home">
-            <h1 class="font-10 line-8 text-white">Present Your Work With <span class="text-warning">NEOFOX</span> Studio
+            <h1 class="font-7 line-9 text-white">
+              Neofox, <br> A New Kind Of <br> <span class="text-warning">Design-Studio</span> <br> Where Art And Skill
+              Meet
             </h1>
 
             <div class="text-right">
-              <p class="para-desc text-white roboto-slab text-uppercase">Launch your campaign and benefit from our
-                expertise on designing and
-                managing conversion centered bootstrap v5 html page.</p>
+              <p class="para-desc text-white roboto-slab text-uppercase">
+                As a full-service digital agency, we assist
+                associations all throughout the planet with plans and branding techniques, web development projects, and
+                advanced showcasing efforts.
+              </p>
+              <br>
             </div>
           </div>
         </div><!--end row-->
       </div><!--end container-->
     </section>
     <section>
-      <div class="container">
+      <div class="container py-5">
         <div class="row justify-content-center">
-          <div class="col-12 text-center">
+          <div class="col-md-8 text-center">
             <div class="section-title mb-4 pb-2">
-              <h2 class=" mb-4">Work Process</h2>
-              <p class=" para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
-                that can provide everything you need to generate awareness, drive traffic, connect.</p>
+              <h2 class="mb-4 line-10"> We tune in, we challenge, we work <span
+                class="text-primary fw-bold">cooperatively </span>, we make
+                things - quicker than you'd accept.</h2>
             </div>
           </div><!--end col-->
         </div><!--end row-->
 
         <div class="row">
-          <div class="col-md-4 mt-4 pt-2">
+          <div class="col-12 mt-4 pt-2">
             <div class="card work-process border-0 rounded shadow">
-              <div class="card-body">
-                <h4 class="title">Discuss The Project</h4>
-                <p class="text-muted para">The most well-known dummy text is the 'Lorem Ipsum', which is said to have
-                  originated in the 16th century.</p>
+              <div class="card-body position-relative">
+                <img class="card-image" src="/img/design-studio/bottle.svg" alt="PRODUCT DESIGN">
+                <img class="card-image card-image-second" src="/img/design-studio/bottle.svg" alt="PRODUCT DESIGN">
+                <h3 class="title">PRODUCT DESIGN</h3>
+                <p class="para">
+                  Setting up a thing available to be purchased to the public isn't for feeble
+                  willed. All the time new organizations feel fear, chaos, and frustration.
+                  <br>
+                  They are worried that they
+                  don't have the right group, bearing, or skill that can get their item evolved from a plan to the real
+                  world. </p>
                 <ul class="list-unstyled d-flex justify-content-between mb-0 mt-2">
-                  <li class=" h1 mb-0 fw-bold text-gray">Step 01.</li>
+                  <li class=" h1 mb-0 fw-bold text-gray">PRODUCT DESIGN.</li>
                 </ul>
               </div>
             </div>
-          </div><!--end col-->
+          </div>
+          <div class="col-12 mt-4 pt-2">
+            <div class="card work-process border-0 rounded shadow">
+              <div class="card-body position-relative">
+                <img class="card-image" src="/img/design-studio/bottle.svg" alt="BRANDING DESIGN">
+                <h3 class="title">BRANDING DESIGN</h3>
+                <p class="para">
+                  As a full-administration branding and configuration organization, we assist you with rejuvenating your
+                  thoughts.
+                  <br>
+                  We offer a total scope of innovative administrations customized to your nearby and progressing
+                  branding prerequisites. From logos to mark books, to print and advanced, we have you covered!
+                </p>
+                <ul class="list-unstyled d-flex justify-content-between mb-0 mt-2">
+                  <li class=" h1 mb-0 fw-bold text-gray">BRANDING DESIGN.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-4 pt-2">
+            <div class="card work-process border-0 rounded shadow">
+              <div class="card-body position-relative">
+                <img class="card-image" src="/img/design-studio/bottle.svg" alt="WEBSITE DESIGN">
+                <h3 class="title">WEBSITE DESIGN</h3>
+                <p class="para">
+                  An especially fascinating venture that necessary the website be overhauled, giving to it a more
+                  worldwide allure.
+                  <br>
+                  We went all out with activities, representations, and connections that gave it an entirely different
+                  look.Our specialists foster your client personas and run careful examination to guarantee your website
+                  architecture draws in and holds your objective market
 
-          <div class="col-md-4 mt-4 pt-2">
-            <div class="card work-process border-0 rounded shadow">
-              <div class="card-body">
-                <h4 class="title">Develop & Elaborate</h4>
-                <p class="text-muted para">The most well-known dummy text is the 'Lorem Ipsum', which is said to have
-                  originated in the 16th century.</p>
+                </p>
                 <ul class="list-unstyled d-flex justify-content-between mb-0 mt-2">
-                  <li class="h1 mb-0 fw-bold text-gray">Step 02.</li>
+                  <li class=" h1 mb-0 fw-bold text-gray">WEBSITE DESIGN.</li>
                 </ul>
               </div>
             </div>
-          </div><!--end col-->
-
-          <div class="col-md-4 mt-4 pt-2">
+          </div>
+          <div class="col-12 mt-4 pt-2">
             <div class="card work-process border-0 rounded shadow">
-              <div class="card-body">
-                <h4 class="title">Final Approvement</h4>
-                <p class="text-muted para">The most well-known dummy text is the 'Lorem Ipsum', which is said to have
-                  originated in the 16th century.</p>
+              <div class="card-body position-relative">
+                <img class="card-image" src="/img/design-studio/bottle.svg" alt="APP DESIGNS">
+                <h3 class="title">APP DESIGNS</h3>
+                <p class="para">
+                  As an imaginative UI/UX plan organization, we cut a client first interface and versatile experience,
+                  with a center spotlight on your business objectives.
+                  <br>
+                  Our creators make the application plan that inhales your idea by improving with the most recent
+                  industry patterns, regardless of whether it is versatile, tablet, wearable, or TV.</p>
                 <ul class="list-unstyled d-flex justify-content-between mb-0 mt-2">
-                  <li class=" h1 mb-0 fw-bold text-gray">Step 03.</li>
+                  <li class=" h1 mb-0 fw-bold text-gray">APP DESIGNS.</li>
                 </ul>
               </div>
             </div>
-          </div><!--end col-->
+          </div>
+          <div class="col-12 mt-4 pt-2">
+            <div class="card work-process border-0 rounded shadow">
+              <div class="card-body position-relative">
+                <img class="card-image" src="/img/design-studio/bottle.svg" alt="PRINT DESIGN">
+                <h3 class="title">PRINT DESIGN</h3>
+                <p class="para">
+                  We make expertly arranged presents, inventories, and other print plans. A modest and simple approach
+                  to advance your organization and present data.
+                  <br>
+                  With the Neofox Design Studio, you can start with changed postcards, book cover plans, name plans,
+                  corporate flyers, handouts, and various kinds of composing words that will help you with getting your
+                  message out. </p>
+                <ul class="list-unstyled d-flex justify-content-between mb-0 mt-2">
+                  <li class=" h1 mb-0 fw-bold text-gray">PRINT DESIGN.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div><!--end row-->
       </div>
     </section>
     <section>
-      <div class="container mt-100 pt-50">
+      <div class="container py-5">
         <div class="row justify-content-center">
-          <div class="col-12 text-center">
-            <div class="section-title mb-4 pb-2">
-              <h4 class="title mb-4">Our Latest Projects</h4>
-              <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
-                that can provide everything you need to generate awareness, drive traffic, connect.</p>
+          <div class="col-12 py-5">
+            <div class="section-title">
+              <h2>Neofox, A New Kind Of Design Studio</h2>
+              <p class="para-desc mb-0 h5 noto-sans fw-light"> We'll help you plan and construct the ideal site for both
+                your crowd and
+                your substance designers – and afterward, we'll assist with carrying the right crowd to your site
+                through paid and natural computerized promoting techniques.</p>
             </div>
           </div><!--end col-->
         </div><!--end row-->
@@ -109,17 +170,25 @@
         </div>
       </div>
     </div>
+    <FaqContainer :faq="FAQ" title="Faq"></FaqContainer>
+    <BlogGrid></BlogGrid>
   </section>
 
 </template>
 
 <script>
+import FaqContainer from "@/components/faq/FaqContainer";
+import BlogGrid from "@/components/Blog/BlogGrid";
+import {iot_faq} from "@/utils/questions";
+
 export default {
   name: "design-studio",
   data: () => ({
     selectedImage: undefined,
-    hideImage: true
+    hideImage: true,
+    FAQ: iot_faq
   }),
+  components: {FaqContainer, BlogGrid},
   methods: {
     showImage(el, name) {
       this.openFullscreen();
@@ -162,7 +231,6 @@ export default {
   0% {
   }
   100% {
-
     filter: hue-rotate(180deg);
   }
 }
@@ -235,6 +303,31 @@ export default {
 
 .card {
   background-color: rgba(255, 255, 255, 0.2);
+
+  &:hover {
+    .card-image {
+      opacity: 100%;
+      transform: rotate(30deg);
+      margin-top: -80px;
+    }
+  }
+}
+
+.card-image {
+  transition-duration: 400ms;
+  position: absolute;
+  width: 150px;
+  right: 0;
+  top: 0;
+  opacity: 0%;
+}
+
+.card-image-second {
+  right: 100px;
+}
+
+.card-image-third {
+  right: 200px;
 }
 
 </style>

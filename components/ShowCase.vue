@@ -24,7 +24,7 @@
                  :href="'#'+ button | slug"
                  role="tab"
                  :aria-controls="button | slug"
-                 aria-selected="false">
+                 :aria-selected="index===0">
                 <div class="text-center py-2">
                   <h3 class="mb-0 h5">{{ button }}</h3>
                 </div>
@@ -36,9 +36,10 @@
       <div class="row">
         <div class="col-12 mt-4 pt-2">
           <div class="tab-content" id="pills-tabContent">
-            <div v-for="button in buttons"
+            <div v-for="(button, index) in buttons"
                  class="tab-pane fade"
                  :id="button | slug"
+                 :class="{'active show': index===0}"
                  role="tabpanel" :aria-labelledby="button+'_id' | slug">
               <div class="row align-items-center">
                 <slot :name="button|slug"></slot>

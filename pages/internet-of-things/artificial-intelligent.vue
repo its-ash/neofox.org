@@ -41,7 +41,18 @@
         </svg>
       </div>
     </div>
-    <KeyFeatures :features="features"></KeyFeatures>
+    <KeyFeatures :features="features">
+      <p>
+        The central clarification for merging
+        <span class="line text-primary fw-bold"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Artificial intelligence">AI</span>
+        with IoT is, while IoT devices adequately gather all the data and moving it to ordinarily cloud
+        or whatever other space where data can be amassed through the web. </p>
+      <p>AI, which is considered as the frontal cortex of A IoT is
+        what truly helps in unique and reenacting the machines to act or respond.</p>
+    </KeyFeatures>
     <section class="section">
       <div class="container">
         <div class="row d-flex align-items-center">
@@ -69,21 +80,18 @@ import KeyFeatures from "@/components/Blocks/KeyFeatures";
 import TechList from "@/components/Blocks/TechList";
 import BlogGrid from "@/components/Blog/BlogGrid";
 import {SEO} from "@/plugins/MetaTags";
+import {iot_faq} from "~/utils/questions";
+import {iot_ai_tech_list} from "~/utils/tech_list";
 
 export default {
   components: {TechList, FaqContainer, KeyFeatures, BlogGrid},
   head: SEO('a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'),
   data: () => ({
-    techItems: ['pytorch.svg', 'tensorflow.svg', 'python.svg', 'neo4j.svg', 'opencv.svg', 'pyspark.svg'],
+    techItems: iot_ai_tech_list,
     features: [
-      {alt: "", title: "", icon: "", text: ""}
+      {alt: "", title: "BOOM", icon: "", text: "DOOM"}
     ],
-    FAQ: {
-      'There is no such thing as integers.': 'We are talking about numbers with no decimals here',
-      'There is no such thing as JavaScript.': 'We are talking about numbers with no decimals here',
-      'There is no such thing as JavaScript integers.': 'We are talking about numbers with no decimals here',
-      'There is no such as JavaScript integers.': 'We are talking about numbers with no decimals here'
-    }
+    FAQ: iot_faq
   }),
   mounted() {
     bootstrap();

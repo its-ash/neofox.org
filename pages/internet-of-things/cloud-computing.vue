@@ -1,33 +1,37 @@
 <template>
   <section class="position-relative bg-white">
-    <!-- Hero Start -->
-    <section class="bg-light h-100-center w-100">
+    <section class="bg-light w-100 h-100-center">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6 col-12">
+          <div class="col-md-6 col-12 order-md-1 order-2">
             <div class="title-heading">
-              <NuxtLink class="badge rounded-pill bg-soft-primary" :to="{name: 'internet-of-things'}">
+              <NuxtLink class="badge rounded-pill text-light-dark " :to="{name: 'internet-of-things'}">
                 Internet Of Things
               </NuxtLink>
-              <h1 class="fw-bold mt-2 mb-3">A Complete <br> Developer Toolset</h1>
-              <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
-                managing conversion centered bootstrap v5 html page.</p>
+              <h1 class="fw-bold mt-2 mb-3 line-10 text-uppercase">
+                IoT cloud platforms can significantly ease your
+                <span class="line text-danger" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="Health, Business">life</span>!</h1>
+              <p class="para-desc text-light-dark">We provide connectivity, security, scalability, and ease of
+                integration. These platforms also help you to improve the usability of your IoT app.
+              </p>
+
               <div class="mt-4 pt-2">
-                <a href="javascript:void(0)" class="btn btn-primary me-2">Get Started</a>
-                <a href="javascript:void(0)" class="btn btn-outline-primary">Documentation</a>
+                <NuxtLink :to="{name:'contact'}" class="btn btn-primary me-2">Get Started</NuxtLink>
+                <a href="#FAQS" class="btn btn-outline-primary">FAQ</a>
               </div>
-              <p class="text-muted mb-0 mt-3">Current Version: v3.0.0</p>
+              <!--              <p class="text-muted mb-0 mt-3">Current Version: v3.0.0</p>-->
             </div>
           </div><!--end col-->
 
-          <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
-            <img src="/svg/flow-chart/iot-cloud.svg" class="img-fluid d-block mx-auto" alt="">
+          <div class="col-md-6 order-md-2 order-1">
+            <img src="/svg/flow-chart/iot-ai.svg" class="img-fluid d-block mx-auto"
+                 alt="neofox artificial intelligent in iot">
           </div><!--end col-->
         </div><!--end row-->
       </div> <!--end container-->
-    </section><!--end section-->
-    <!-- Partners start -->
-    <!-- Partners End -->
+    </section>
+    <TechList :items="techItems"></TechList>
     <div class="position-relative">
       <div class="shape overflow-hidden text-white">
         <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,104 +39,55 @@
         </svg>
       </div>
     </div>
-    <!-- Hero End -->
-    <!-- Start -->
+    <KeyFeatures :features="features">
+      <p>
+        We focus on security and efficiency. Our IoT platform is flexible and based on open standards and open
+        source. Our goal is to strengthen your relationship with your customers.
+      </p>
+    </KeyFeatures>
     <section class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title mb-4 pb-2">
-              <h4 class="title mb-4">Key Features</h4>
-              <p class="para-desc text-muted mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
-                that can provide everything you need to generate awareness, drive traffic, connect.</p>
-            </div>
-          </div><!--end col-->
-        </div><!--end row-->
-
-        <div class="row align-items-center">
-          <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow">
-              <div class="icons text-primary text-center">
-                <i class="uil uil-layer-group d-block rounded h3 mb-0"></i>
-              </div>
-              <div class="card-body p-0 mt-4">
-                <a href="javascript:void(0)" class="title h5 text-dark">Modular</a>
-                <p class="text-muted mt-2">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                <a href="javascript:void(0)" class="text-primary read-more">Read More <i
-                  class="uil uil-angle-right-b"></i></a>
-                <i class="uil uil-layer-group text-primary full-img"></i>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow">
-              <div class="icons text-primary text-center">
-                <i class="uil uil-airplay d-block rounded h3 mb-0"></i>
-              </div>
-              <div class="card-body p-0 mt-4">
-                <a href="javascript:void(0)" class="title h5 text-dark">Responsive</a>
-                <p class="text-muted mt-2">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                <a href="javascript:void(0)" class="text-primary read-more">Read More <i
-                  class="uil uil-angle-right-b"></i></a>
-                <i class="uil uil-airplay text-primary full-img"></i>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow">
-              <div class="icons text-primary text-center">
-                <i class="uil uil-focus-target d-block rounded h3 mb-0"></i>
-              </div>
-              <div class="card-body p-0 mt-4">
-                <a href="javascript:void(0)" class="title h5 text-dark">Customizable</a>
-                <p class="text-muted mt-2">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                <a href="javascript:void(0)" class="text-primary read-more">Read More <i
-                  class="uil uil-angle-right-b"></i></a>
-                <i class="uil uil-focus-target text-primary full-img"></i>
-              </div>
-            </div>
-          </div><!--end col-->
-
-          <div class="col-lg-3 col-md-6 mt-4 pt-2">
-            <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow">
-              <div class="icons text-primary text-center">
-                <i class="uil uil-expand-arrows d-block rounded h3 mb-0"></i>
-              </div>
-              <div class="card-body p-0 mt-4">
-                <a href="javascript:void(0)" class="title h5 text-dark">Scalable</a>
-                <p class="text-muted mt-2">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                <a href="javascript:void(0)" class="text-primary read-more">Read More <i
-                  class="uil uil-angle-right-b"></i></a>
-                <i class="uil uil-expand-arrows text-primary full-img"></i>
-              </div>
-            </div>
-          </div><!--end col-->
-        </div><!--end row-->
-      </div><!--end container-->
-
-      <div class="container mt-100 mt-60">
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="section-title text-center mb-4 pb-2">
-              <h6 class="text-primary">Quickstart</h6>
-              <h4 class="title mb-4">Awesome isn't it? Let's dive in!</h4>
-              <p class="para-desc mx-auto text-muted mb-0">Start working with <span class="text-primary fw-bold">Landrick</span>
-                that can provide everything you need to generate awareness, drive traffic, connect.</p>
-            </div>
-          </div><!--end col-->
-        </div><!--end row-->
-      </div><!--end container-->
-    </section><!--end section-->
-    <!-- End -->
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-12">
+            <h3 class="py-5 h2 line-15 text-dark">
+              These platforms also help you to improve the usability of your IoT System. They focus on security and
+              efficiency.
+            </h3>
+          </div>
+          <div class="col-5 d-none d-md-block">
+            <img src="/images/illustrator/app.svg" class="w-100" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <FaqContainer :faq="FAQ" title="Faq"></FaqContainer>
+    <BlogGrid></BlogGrid>
   </section>
 </template>
 
 <script>
 import {bootstrap} from "@/plugins/script.client";
+import FaqContainer from "~/components/faq/FaqContainer";
+import KeyFeatures from "@/components/Blocks/KeyFeatures";
+import TechList from "@/components/Blocks/TechList";
+import BlogGrid from "@/components/Blog/BlogGrid";
+import {SEO} from "@/plugins/MetaTags";
+import {iot_faq} from "~/utils/questions";
+import {iot_ai_tech_list} from "~/utils/tech_list";
 
 export default {
+  components: {TechList, FaqContainer, KeyFeatures, BlogGrid},
+  head: SEO('a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'),
+  data: () => ({
+    techItems: iot_ai_tech_list,
+    features: [
+      {alt: "Scalability", title: "Scalability", icon: "", text: ""},
+      {alt: "Data Mobility", title: "Data Mobility", icon: "", text: ""},
+      {alt: "Security", title: "Security", icon: "", text: ""},
+      {alt: "Cost-Effectiveness", title: "Cost-Effectiveness", icon: "", text: ""}
+    ],
+    FAQ: iot_faq
+  }),
   mounted() {
     bootstrap();
   }

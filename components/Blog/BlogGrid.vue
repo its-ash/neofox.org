@@ -9,7 +9,7 @@
       </div>
       <div class="row">
         <div class="col-12 d-flex justify-content-end py-5 line-25">
-          <NuxtLink :to="{name:'blog'}" class="text-right mx-4 line">Read More ></NuxtLink>
+          <NuxtLink :to="{name:'blog'}" class="px-2 btn-success rounded-2">Read More ></NuxtLink>
         </div>
       </div>
     </div>

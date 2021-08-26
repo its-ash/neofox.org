@@ -104,86 +104,177 @@
                 <NuxtLink :to="{name:'data-science'}" class="fw-bold"> Data Science</NuxtLink>
                 <span class="submenu-arrow"></span>
                 <ul class="submenu">
-                  <li><a href="" class="sub-menu-item">Predictive Analytics</a></li>
-                  <li><a href="" class="sub-menu-item">Statistical Modeling</a></li>
-                  <li><a href="" class="sub-menu-item">Machine Learning</a></li>
-                  <li><a href="" class="sub-menu-item">Data Engineering</a></li>
-                  <li><a href="" class="sub-menu-item">Decision Optimization</a></li>
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'data-science-predictive-analytics'}"
+                      class="sub-menu-item">
+                      Predictive Analytics
+                    </NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'data-science-statistical-modeling'}"
+                      class="sub-menu-item">
+                      Statistical Modeling
+                    </NuxtLink>
+                  </li>
+
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'data-science-machine-learning'}"
+                      class="sub-menu-item">
+                      Machine Learning
+                    </NuxtLink>
+                  </li>
+
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'data-science-data-engineering'}"
+                      class="sub-menu-item">
+                      Data Engineering
+                    </NuxtLink>
+                  </li>
+
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'data-science-decision-optimization'}"
+                      class="sub-menu-item">
+                      Decision Optimization
+                    </NuxtLink>
+                  </li>
                 </ul>
               </li>
               <li class="has-submenu parent-menu-item">
                 <NuxtLink :to="{name:'web-development'}" class="fw-bold"> Web Solution</NuxtLink>
                 <span class="submenu-arrow"></span>
                 <ul class="submenu">
-                  <li><a href="" class="sub-menu-item">Full-Stack Web Development</a></li>
-                  <li><a href="" class="sub-menu-item">Ecommerce Applications</a></li>
-                  <li><a href="" class="sub-menu-item">Custom Web Applications</a></li>
-                  <li><a href="" class="sub-menu-item">Content Management Systems</a></li>
-                  <li><a href="" class="sub-menu-item">Web Support and Maintenance</a></li>
-                  <li><a href="" class="sub-menu-item">QA & Testing</a></li>
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'web-development-full-stack-web-development'}"
+                      class="sub-menu-item">
+                      Full-Stack Web Development
+                    </NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'web-development-ecommerce-applications'}"
+                      class="sub-menu-item">
+                      Ecommerce Applications
+                    </NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'web-development-custom-web-applications'}"
+                      class="sub-menu-item">
+                      Custom Web Applications
+                    </NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'web-development-content-management-systems'}"
+                      class="sub-menu-item">
+                      Content Management Systems
+                    </NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'web-development-web-support-and-maintenance'}"
+                      class="sub-menu-item">
+                      Web Support and Maintenance
+                    </NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink
+                      v-on:click.native="toggleMenu"
+                      :to="{name: 'web-development-qa-and-testing'}"
+                      class="sub-menu-item">
+                      QA & Testing
+                    </NuxtLink>
+                  </li>
                 </ul>
               </li>
               <li class="has-submenu parent-menu-item">
                 <NuxtLink :to="{name:'mobile-development'}" class="fw-bold"> Mobile Solution</NuxtLink>
                 <span class="submenu-arrow"></span>
                 <ul class="submenu">
-                  <li><a href="" class="sub-menu-item">Flutter</a></li>
-                  <li><a href="" class="sub-menu-item">React Native</a></li>
-                </ul>
-              </li>
-              <li class="has-submenu parent-menu-item">
-                <NuxtLink :to="{name:'digital-marketing'}" class="fw-bold"> Digital Marketing</NuxtLink>
-                <span class="submenu-arrow"></span>
-                <ul class="submenu">
-                  <li><a href="" class="sub-menu-item">Search Engine Optimization</a></li>
-                  <li><a href="" class="sub-menu-item">Social Media Marketing</a></li>
-                  <li><a href="" class="sub-menu-item">Content Marketing</a></li>
-                  <li><a href="" class="sub-menu-item">Email Marketing</a></li>
-                  <li><a href="" class="sub-menu-item">Mobile Marketing</a></li>
-                  <li><a href="" class="sub-menu-item">Marketing Analytics</a></li>
-                </ul>
-              </li>
-              <li class="has-submenu parent-menu-item">
-                <NuxtLink :to="{name:'design-studio'}" class="fw-bold"> Design Studio</NuxtLink>
-                <span class="submenu-arrow"></span>
-                <ul class="submenu">
-                  <li><a href="" class="sub-menu-item">Product design</a></li>
-                  <li><a href="" class="sub-menu-item">Branding design</a></li>
-                  <li><a href="" class="sub-menu-item">Website design</a></li>
-                  <li><a href="" class="sub-menu-item">App design</a></li>
-                  <li><a href="" class="sub-menu-item">Print design</a></li>
+                  <NuxtLink
+                    v-on:click.native="toggleMenu"
+                    :to="{name: 'mobile-development-flutter'}"
+                    class="sub-menu-item">
+                    Flutter
+                  </NuxtLink>
+                  <NuxtLink
+                    v-on:click.native="toggleMenu"
+                    :to="{name: 'mobile-development-react-native'}"
+                    class="sub-menu-item">
+                    React Native
+                  </NuxtLink>
                 </ul>
               </li>
               <li class="has-submenu parent-menu-item">
                 <NuxtLink :to="{name:'cloud-server'}" class="fw-bold">Cloud Solution</NuxtLink>
                 <span class="submenu-arrow"></span>
                 <ul class="submenu">
-                  <li><a href="" class="sub-menu-item">SaaS</a></li>
-                  <li><a href="" class="sub-menu-item">IaaS</a></li>
-                  <li><a href="" class="sub-menu-item">PaaS</a></li>
-<!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
-<!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
-<!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
-<!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
-<!--                  <li><a href="" class="sub-menu-item">Server/Load balancer</a></li>-->
-<!--                  <li><a href="" class="sub-menu-item">Microservices</a></li>-->
-<!--                  <li><a href="" class="sub-menu-item">Database</a></li>-->
-<!--                  <li><a href="" class="sub-menu-item">Security (DDoS)</a></li>-->
-<!--                  <li><a href="" class="sub-menu-item">Business Email</a></li>-->
+                  <NuxtLink :to="{name:'cloud-server-saas'}" class="fw-bold">SaaS</NuxtLink>
+                  <NuxtLink :to="{name:'cloud-server-iaas'}" class="fw-bold">IaaS</NuxtLink>
+                  <NuxtLink :to="{name:'cloud-server-paas'}" class="fw-bold">PaaS</NuxtLink>
+                  <!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
+                  <!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
+                  <!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
+                  <!--                  <li><a href="" class="sub-menu-item">Domain/Hosting/CDN</a></li>-->
+                  <!--                  <li><a href="" class="sub-menu-item">Server/Load balancer</a></li>-->
+                  <!--                  <li><a href="" class="sub-menu-item">Microservices</a></li>-->
+                  <!--                  <li><a href="" class="sub-menu-item">Database</a></li>-->
+                  <!--                  <li><a href="" class="sub-menu-item">Security (DDoS)</a></li>-->
+                  <!--                  <li><a href="" class="sub-menu-item">Business Email</a></li>-->
                 </ul>
               </li>
               <li class="has-submenu parent-menu-item">
+                <NuxtLink :to="{name:'digital-marketing'}" class="fw-bold"> Digital Marketing</NuxtLink>
+                <!--                <span class="submenu-arrow"></span>-->
+                <!--                <ul class="submenu">-->
+                <!--                  <li><a href="" class="sub-menu-item">Search Engine Optimization</a></li>-->
+                <!--                  <li><a href="" class="sub-menu-item">Social Media Marketing</a></li>-->
+                <!--                  <li><a href="" class="sub-menu-item">Content Marketing</a></li>-->
+                <!--                  <li><a href="" class="sub-menu-item">Email Marketing</a></li>-->
+                <!--                  <li><a href="" class="sub-menu-item">Mobile Marketing</a></li>-->
+                <!--                  <li><a href="" class="sub-menu-item">Marketing Analytics</a></li>-->
+                <!--                </ul>-->
+              </li>
+              <li class="has-submenu parent-menu-item">
+                <NuxtLink :to="{name:'design-studio'}" class="fw-bold"> Design Studio</NuxtLink>
+                <!--                <span class="submenu-arrow"></span>-->
+                <!--                <ul class="submenu">-->
+                <!--                  <li><a href="" class="sub-menu-item">Product design</a></li>-->
+                <!--                  <li><a href="" class="sub-menu-item">Branding design</a></li>-->
+                <!--                  <li><a href="" class="sub-menu-item">Website design</a></li>-->
+                <!--                  <li><a href="" class="sub-menu-item">App design</a></li>-->
+                <!--                  <li><a href="" class="sub-menu-item">Print design</a></li>-->
+                <!--                </ul>-->
+              </li>
+
+              <li class="has-submenu parent-menu-item">
                 <NuxtLink :to="{name:'dev-ops'}" class="fw-bold">Dev/Ops</NuxtLink>
-                <span class="submenu-arrow"></span>
-                <ul class="submenu">
-                  <li><a href="" class="sub-menu-item">Gitlab</a></li>
-                  <li><a href="" class="sub-menu-item">Configuration Management</a></li>
-                  <li><a href="" class="sub-menu-item">Continuous Integration</a></li>
-                  <li><a href="" class="sub-menu-item">Automated Testing</a></li>
-                  <li><a href="" class="sub-menu-item">Continuous Delivery</a></li>
-                  <li><a href="" class="sub-menu-item">Infrastructure as Code</a></li>
-                  <li><a href="" class="sub-menu-item">Monitoring and Logging</a></li>
-                </ul>
+<!--                <span class="submenu-arrow"></span>-->
+<!--                <ul class="submenu">-->
+<!--                  <li><a href="" class="sub-menu-item">Gitlab</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Configuration Management</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Continuous Integration</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Automated Testing</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Continuous Delivery</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Infrastructure as Code</a></li>-->
+<!--                  <li><a href="" class="sub-menu-item">Monitoring and Logging</a></li>-->
+<!--                </ul>-->
               </li>
             </ul>
           </li>

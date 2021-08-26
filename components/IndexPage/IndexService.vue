@@ -1,11 +1,11 @@
 <template>
   <section class="d-table w-100 position-relative" id="services">
     <div class="container py-5">
-      <h2 class="text-center h1">Lorem ipsum dolor sit amet</h2>
-      <p class="text-center text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iusto magnam
-        maxime modi
-        veniam! Aspernatur cumque debitis quisquam reprehenderit soluta totam ullam voluptates? Est exercitationem harum
-        itaque nisi quos temporibus!</p>
+      <h2 class="h2">Neofox is the platform trust to draw in, <br> engage, and develop proficiently.</h2>
+      <p class="text-black-50 para-desc">We believe in providing forward-thinking creative solutions that yield exceptional
+        results. With a solid approach to planning, realistic implementation and value, we deliver customized,
+        results-driven programs to achieve our clients’ specific marketing goals.
+      </p>
     </div>
     <div class="row p-0 m-0">
       <NuxtLink :to="{name:'data-science'}"
