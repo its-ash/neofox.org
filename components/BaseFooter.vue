@@ -1,26 +1,34 @@
 <template>
   <section id="footer">
-    <footer >
+    <footer>
       <div class="container pt-5 mt-5 text-success">
         <div class="row py-5">
           <div class="col-lg-4 col-md-6 col-md-4 col-10 mb-0 mb-md-4 pb-0 pb-md-2">
             <a href="" class="logo-footer">
               <img src="/img/logo.png " class="w-100 h-auto" width="964" height="210" alt="Neofox Logo">
             </a>
-            <p class="mt-4">Start working with Landrick that can provide everything you need to generate awareness,
-              drive
-              traffic, connect.</p>
+            <p class="mt-4">
+              We merge creative minds and innovation to help brands grow in an age of digital
+              transformation.</p>
           </div><!--end col-->
-          <div class="col-lg-5 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+          <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
             <h3 class="footer-head h3 text-secondary">Company</h3>
             <ul class="list-unstyled footer-list mt-4 rajdhani">
               <li class="py-1"><a href="" class="text-gray display-4 line">About us</a></li>
               <li class="py-1"><a href="" class="text-gray display-4 line">Services</a></li>
-              <li class="py-1"><a href="" class="text-gray display-4 line">Team</a></li>
-              <li class="py-1"><a href="" class="text-gray display-4 line">Pricing</a></li>
+              <li class="py-1"><a href="" class="text-gray display-4 line">Internship</a></li>
               <li class="py-1"><a href="" class="text-gray display-4 line">Project</a></li>
+              <li class="py-1"><a href="" class="text-gray display-4 line">Blog</a></li>
             </ul>
-          </div><!--end col-->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+            <h3 class="footer-head h3 text-warning">Links</h3>
+            <ul class="list-unstyled footer-list mt-4 rajdhani">
+              <li class="py-1"><a href="" class="text-gray display-4 line">Terms & Condition</a></li>
+              <li class="py-1"><a href="" class="text-gray display-4 line">Private Policy</a></li>
+              <li class="py-1"><a href="" class="text-gray display-4 line">Cookies Policy</a></li>
+            </ul>
+          </div>
         </div><!--end row-->
         <div class="row pb-5 d-flex justify-content-center">
           <div class="col-md-4 col-10">

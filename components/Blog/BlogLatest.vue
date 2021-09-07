@@ -11,9 +11,10 @@
 
         <div class="col-lg-6">
           <div class="section-title text-center text-lg-start">
-            <p class="text-muted mb-0 mx-auto para-desc">Start working with <span
-              class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness,
-              drive traffic, connect.</p>
+            <p class="text-muted mb-0 mx-auto para-desc">
+              Our mission is to help the customer reach new heights of <span class="text-success fw-bold">success</span>
+              while rejoicing the increase in sales and enhanced online traffic inflow.
+            </p>
           </div>
         </div><!--end col-->
       </div>

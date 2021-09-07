@@ -76,13 +76,14 @@
 }
 
 @keyframes rotate-rotate {
-  0%{}
-  100%{
+  0% {
+  }
+  100% {
     transform: rotate(360deg);
   }
 }
 
-.rotate{
+.rotate {
   animation: rotate-rotate linear infinite 10s;
 }
 
@@ -152,4 +153,14 @@
   min-height: 95vh !important;
   justify-content: center;
   align-content: center;
+}
+
+
+.hover-shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+
+  }
 }
