@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <main>
     <section class="h-100-center bg-light w-100">
       <div class="container py-5">
         <div class="row justify-content-center">
@@ -140,12 +140,22 @@
         </div><!--end row-->
       </div><!--end container-->
     </section><!--end section-->
-  </section>
+  </main>
 </template>
 
 <script>
+import {SEO} from "@/plugins/MetaTags";
+
 export default {
   name: "internship",
+  head: SEO(
+    "IT Services, Digital Solutions, Technology Consulting : NEOFOX",
+    "Data Science, IoT, Software Development, Web Development",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IoT,AI,Machine Learning,IIoT,Industrial Solution,Solution,Smart",
+    "",
+    [],
+  ),
   data: () => ({
     mobileNumber: '',
     fullName: '',

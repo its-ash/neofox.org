@@ -33,10 +33,20 @@
 import {getPosts, getTags} from "@/api/posts";
 import BlogCard from "@/components/Blog/BlogCard";
 import Loader from "@/components/loader/Loader";
+import {SEO} from "@/plugins/MetaTags";
 
 export default {
   name: "index",
   components: {BlogCard, Loader},
+  head: SEO(
+    "IT Services, Digital Solutions, Technology Consulting : NEOFOX",
+    "Data Science, IoT, Software Development, Web Development",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IoT,AI,Machine Learning,IIoT,Industrial Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({posts: undefined, tags: undefined, current: 1}),
   async fetch() {
     const [tags, posts] = await Promise.all([

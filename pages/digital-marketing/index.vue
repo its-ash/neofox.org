@@ -115,10 +115,20 @@
 import KeyFeatures from "@/components/Blocks/KeyFeatures";
 import {iot_ai_tech_list} from "@/utils/tech_list";
 import {iot_faq} from "@/utils/questions";
+import {SEO} from "@/plugins/MetaTags";
 
 export default {
   name: "digital-market-agency",
   components: {KeyFeatures},
+  head: SEO(
+    "IT Services, Digital Solutions, Technology Consulting : NEOFOX",
+    "Data Science, IoT, Software Development, Web Development",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IoT,AI,Machine Learning,IIoT,Industrial Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({
     techItems: iot_ai_tech_list,
     features: [

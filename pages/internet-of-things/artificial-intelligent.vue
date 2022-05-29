@@ -27,7 +27,7 @@
           </div><!--end col-->
 
           <div class="col-md-6 order-md-2 order-1">
-            <img src="/svg/flow-chart/iot-ai.svg" class="img-fluid d-block mx-auto"
+            <img src="/img/iot/AiForIot.svg" class="img-fluid d-block mx-auto"
                  alt="neofox artificial intelligent in iot">
           </div><!--end col-->
         </div><!--end row-->
@@ -85,7 +85,15 @@ import {iot_ai_tech_list} from "~/utils/tech_list";
 
 export default {
   components: {TechList, FaqContainer, KeyFeatures, BlogGrid},
-  head: SEO('a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'),
+  head: SEO(
+    "IT Services, Digital Solutions, Technology Consulting : NEOFOX",
+    "Data Science, IoT, Software Development, Web Development",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IoT,AI,Machine Learning,IIoT,Industrial Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({
     techItems: iot_ai_tech_list,
     features: [

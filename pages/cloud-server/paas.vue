@@ -74,12 +74,20 @@ import KeyFeatures from "@/components/Blocks/KeyFeatures";
 import TechList from "@/components/Blocks/TechList";
 import BlogGrid from "@/components/Blog/BlogGrid";
 import {SEO} from "@/plugins/MetaTags";
-import {cloud_faq, iot_faq} from "~/utils/questions";
+import {cloud_faq} from "~/utils/questions";
 import {iot_ai_tech_list} from "~/utils/tech_list";
 
 export default {
   components: {TechList, FaqContainer, KeyFeatures, BlogGrid},
-  head: SEO('a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'),
+  head: SEO(
+    "Platform as a Service : NEOFOX",
+    "Platform as a Service",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,India,PaaS,Industrial PaaS Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({
     techItems: iot_ai_tech_list,
     features: [

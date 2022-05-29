@@ -101,9 +101,19 @@
 import KeyFeatures from "@/components/Blocks/KeyFeatures";
 import BlogGrid from "@/components/Blog/BlogGrid";
 import FaqContainer from "@/components/faq/FaqContainer";
+import {SEO} from "@/plugins/MetaTags";
 
 export default {
   name: "cloud-server",
+  head: SEO(
+    "Cloud Solution : NEOFOX",
+    "Cloud Solution",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,India,Digital Ocean,Mqtt,Machine Learning,Cloud,Industrial Cloud Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({
     email: '',
     features: [

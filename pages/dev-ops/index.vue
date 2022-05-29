@@ -18,7 +18,6 @@
         </svg>
       </div>
     </div>
-
     <div class="section py-5 container mt-5">
       <h2>
         <span class="line text-danger" data-bs-toggle="tooltip" data-bs-placement="top"
@@ -242,8 +241,6 @@
         </div>
       </div>
     </section>
-
-    <TechList :items="techItems"></TechList>
     <FaqContainer :faq="FAQ" title="Faq"></FaqContainer>
     <BlogGrid></BlogGrid>
   </section>
@@ -255,10 +252,20 @@ import BlogGrid from "@/components/Blog/BlogGrid";
 import TechList from "@/components/Blocks/TechList";
 import {iot_ai_tech_list} from "@/utils/tech_list";
 import {cloud_faq} from "@/utils/questions";
+import {SEO} from "@/plugins/MetaTags";
 
 export default {
   name: "dev-ops",
   components: {FaqContainer, BlogGrid, TechList},
+  head: SEO(
+    "IT Services, Digital Solutions, Technology Consulting : NEOFOX",
+    "Data Science, IoT, Software Development, Web Development",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IoT,AI,Machine Learning,IIoT,Industrial Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({
     techItems: iot_ai_tech_list,
     features: [

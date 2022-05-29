@@ -2,7 +2,7 @@ export default {
   target: 'static',
   ssr: false,
   head: {
-    title: 'neofox.org',
+    title: 'Neofox',
     htmlAttrs: {
       lang: 'en'
     },

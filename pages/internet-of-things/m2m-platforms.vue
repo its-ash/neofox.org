@@ -80,9 +80,19 @@ import {iot_faq} from "~/utils/questions";
 import KeyFeatures from "~/components/Blocks/KeyFeatures";
 import FaqContainer from "~/components/faq/FaqContainer";
 import {iot_m2m_tech_list} from "~/utils/tech_list";
+import {SEO} from "@/plugins/MetaTags";
 
 export default {
   components: {TechList, KeyFeatures, FaqContainer},
+  head: SEO(
+    "IT Services, Digital Solutions, Technology Consulting : NEOFOX",
+    "Data Science, IoT, Software Development, Web Development",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IoT,AI,Machine Learning,IIoT,Industrial Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({
     features: [
       {alt: "", title: "boom", icon: "", text: "sdas"}

@@ -378,8 +378,19 @@
 </template>
 
 <script>
+import {SEO} from "@/plugins/MetaTags";
+
 export default {
-  name: "FAQ"
+  name: "FAQ",
+  head: SEO(
+    "IT Services, Digital Solutions, Technology Consulting : NEOFOX",
+    "Data Science, IoT, Software Development, Web Development",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IoT,AI,Machine Learning,IIoT,Industrial Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
 }
 </script>
 

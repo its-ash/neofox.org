@@ -14,19 +14,35 @@
           <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
             <h3 class="footer-head h3 text-secondary">Company</h3>
             <ul class="list-unstyled footer-list mt-4 rajdhani">
-              <li class="py-1"><a href="" class="text-gray display-4 line">About us</a></li>
-              <li class="py-1"><a href="" class="text-gray display-4 line">Services</a></li>
-              <li class="py-1"><a href="" class="text-gray display-4 line">Internship</a></li>
-              <li class="py-1"><a href="" class="text-gray display-4 line">Project</a></li>
-              <li class="py-1"><a href="" class="text-gray display-4 line">Blog</a></li>
+              <li class="py-1">
+                <NuxtLink class="text-gray display-4 line" :to="{name: 'about'}">About us</NuxtLink>
+              </li>
+              <li class="py-1">
+                <NuxtLink class="text-gray display-4 line" :to="{ name: 'index',hash:'#services'}">Services</NuxtLink>
+              </li>
+              <li class="py-1">
+                <NuxtLink class="text-gray display-4 line" :to="{name: 'internship'}">Internship</NuxtLink>
+              </li>
+              <li class="py-1">
+                <NuxtLink class="text-gray display-4 line" :to="{name: 'projects'}">Project</NuxtLink>
+              </li>
+              <li class="py-1">
+                <NuxtLink class="text-gray display-4 line" :to="{name: 'blog'}">Blog</NuxtLink>
+              </li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
             <h3 class="footer-head h3 text-warning">Links</h3>
             <ul class="list-unstyled footer-list mt-4 rajdhani">
-              <li class="py-1"><a href="" class="text-gray display-4 line">Terms & Condition</a></li>
-              <li class="py-1"><a href="" class="text-gray display-4 line">Private Policy</a></li>
-              <li class="py-1"><a href="" class="text-gray display-4 line">Cookies Policy</a></li>
+              <li class="py-1">
+                <NuxtLink class="text-gray display-4 line" :to="{name: 'terms-conditions'}">Terms & Condition</NuxtLink>
+              </li>
+              <li class="py-1">
+                <NuxtLink class="text-gray display-4 line" :to="{name: 'terms-policy'}">Private Policy</NuxtLink>
+              </li>
+              <li class="py-1">
+                <NuxtLink class="text-gray display-4 line" :to="{name: 'terms-cookies'}">Cookies Policy</NuxtLink>
+              </li>
             </ul>
           </div>
         </div><!--end row-->

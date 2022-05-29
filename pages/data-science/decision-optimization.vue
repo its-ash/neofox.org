@@ -3,7 +3,7 @@
     <section class="bg-light w-100 h-100-center">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6 col-12 order-md-1 order-2">
+          <div class="col-md-5 col-12 order-md-1 order-2">
             <div class="title-heading">
               <NuxtLink class="badge rounded-pill text-light-dark " :to="{name: 'data-science'}">
                 Data Science
@@ -24,8 +24,8 @@
             </div>
           </div><!--end col-->
 
-          <div class="col-md-6 order-md-2 order-1">
-            <img src="/svg/flow-chart/iot-ai.svg" class="img-fluid d-block mx-auto"
+          <div class="col-md-7 order-md-2 order-1">
+            <img src="/img/ai/Revenue-Management-problem.svg" class="img-fluid d-block mx-auto"
                  alt="neofox artificial intelligent in iot">
           </div><!--end col-->
         </div><!--end row-->
@@ -58,7 +58,6 @@
               Neofox decision optimization addresses a group of enhancement software that conveys prescriptive
               investigation abilities to empower associations to settle on better choices and convey further developed
               business results.
-
             </h3>
           </div>
           <div class="col-5 d-none d-md-block">
@@ -84,7 +83,15 @@ import {iot_ai_tech_list} from "~/utils/tech_list";
 
 export default {
   components: {TechList, FaqContainer, KeyFeatures, BlogGrid},
-  head: SEO('a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'),
+  head: SEO(
+    "IT Services, Digital Solutions, Technology Consulting : NEOFOX",
+    "Data Science, IoT, Software Development, Web Development",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IoT,AI,Machine Learning,IIoT,Industrial Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({
     techItems: iot_ai_tech_list,
     features: [

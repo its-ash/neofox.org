@@ -7,7 +7,7 @@
     <div class="bg-light">
       <div itemscope itemtype="https://schema.org/FAQPage" class="container">
         <h2 class="d-inline">
-          {{ title }}
+          {{ title }} Common Questions
         </h2>
         <div class="row d-flex align-items-center">
           <div class="col-md-7 col-12">

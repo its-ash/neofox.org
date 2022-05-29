@@ -23,6 +23,7 @@ import BlogCard from "@/components/Blog/BlogCard";
 
 export default {
   name: "BlogLatest",
+  props: ['tag'],
   components: {BlogCard},
   data: () => ({posts: undefined}),
   fetchOnServer: false,

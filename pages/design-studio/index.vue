@@ -180,9 +180,19 @@
 import FaqContainer from "@/components/faq/FaqContainer";
 import BlogGrid from "@/components/Blog/BlogGrid";
 import {iot_faq} from "@/utils/questions";
+import {SEO} from "@/plugins/MetaTags";
 
 export default {
   name: "design-studio",
+  head: SEO(
+    "IT Services, Digital Solutions, Technology Consulting : NEOFOX",
+    "Data Science, IoT, Software Development, Web Development",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IoT,AI,Machine Learning,IIoT,Industrial Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({
     selectedImage: undefined,
     hideImage: true,

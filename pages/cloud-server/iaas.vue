@@ -105,7 +105,15 @@ import {iot_ai_tech_list} from "~/utils/tech_list";
 
 export default {
   components: {TechList, FaqContainer, KeyFeatures, BlogGrid},
-  head: SEO('a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'),
+  head: SEO(
+    "Infrastructure as a Service : NEOFOX",
+    "IaaS",
+    "We merge imagination and technology to help brands grow in the age of digital transformation",
+    "Neofox,Jaipur,Rajasthan,IaaS,Infrastructure as a Service,CLoud Computing,Industrial Solution,Solution,Smart",
+    "",
+    "",
+    "",
+  ),
   data: () => ({
     techItems: iot_ai_tech_list,
     features: [
