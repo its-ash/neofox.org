@@ -20,15 +20,15 @@
               <li class="py-1">
                 <NuxtLink class="text-gray display-4 line" :to="{ name: 'index',hash:'#services'}">Services</NuxtLink>
               </li>
-              <li class="py-1">
-                <NuxtLink class="text-gray display-4 line" :to="{name: 'internship'}">Internship</NuxtLink>
-              </li>
-              <li class="py-1">
-                <NuxtLink class="text-gray display-4 line" :to="{name: 'projects'}">Project</NuxtLink>
-              </li>
-              <li class="py-1">
-                <NuxtLink class="text-gray display-4 line" :to="{name: 'blog'}">Blog</NuxtLink>
-              </li>
+              <!--              <li class="py-1">-->
+              <!--                <NuxtLink class="text-gray display-4 line" :to="{name: 'internship'}">Internship</NuxtLink>-->
+              <!--              </li>-->
+<!--              <li class="py-1">-->
+              <!--                <NuxtLink class="text-gray display-4 line" :to="{name: 'projects'}">Project</NuxtLink>-->
+              <!--              </li>-->
+              <!--              <li class="py-1">-->
+              <!--                <NuxtLink class="text-gray display-4 line" :to="{name: 'blog'}">Blog</NuxtLink>-->
+              <!--              </li>-->
             </ul>
           </div>
           <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">

@@ -52,7 +52,7 @@ export default {
   buildModules: [],
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/sentry',
+    // '@nuxtjs/sentry',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots'
   ],

@@ -170,8 +170,8 @@
         </div>
       </div>
     </div>
-    <FaqContainer :faq="FAQ" title="Faq"></FaqContainer>
-    <BlogGrid></BlogGrid>
+    <!--    <FaqContainer :faq="FAQ" title="Faq"></FaqContainer>-->
+    <!--    <BlogGrid></BlogGrid>-->
   </section>
 
 </template>

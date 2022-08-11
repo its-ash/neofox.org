@@ -158,7 +158,7 @@
       </div><!--end container-->
     </section>
     <FaqContainer title="IOT" :faq="FAQ"></FaqContainer>
-    <BlogGrid></BlogGrid>
+    <!--    <BlogGrid></BlogGrid>-->
   </div>
 </template>
 

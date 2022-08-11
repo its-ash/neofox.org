@@ -52,24 +52,24 @@
         DevOps. A portion of the web projects needn't bother with a front end since they just give an API.
       </p>
     </KeyFeatures>
-    <section class="section">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-md-7 col-12">
-            <h3 class="py-5 h2 line-15 text-dark">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, architecto aspernatur atque,
-              consequuntur debitis doloremque explicabo harum illo in iste labore maxime molestiae perferendis
-              repudiandae veniam vitae voluptates? Unde, veniam?
-            </h3>
-          </div>
-          <div class="col-5 d-none d-md-block">
-            <img src="/images/illustrator/app.svg" class="w-100" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-    <FaqContainer :faq="FAQ" title="Faq"></FaqContainer>
-    <BlogGrid></BlogGrid>
+    <!--    <section class="section">-->
+    <!--      <div class="container">-->
+    <!--        <div class="row d-flex align-items-center">-->
+    <!--          <div class="col-md-7 col-12">-->
+    <!--            <h3 class="py-5 h2 line-15 text-dark">-->
+    <!--              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, architecto aspernatur atque,-->
+    <!--              consequuntur debitis doloremque explicabo harum illo in iste labore maxime molestiae perferendis-->
+    <!--              repudiandae veniam vitae voluptates? Unde, veniam?-->
+    <!--            </h3>-->
+    <!--          </div>-->
+    <!--          <div class="col-5 d-none d-md-block">-->
+    <!--            <img src="/images/illustrator/app.svg" class="w-100" alt="">-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </section>-->
+    <!--    <FaqContainer :faq="FAQ" title="Faq"></FaqContainer>-->
+    <!--    <BlogGrid></BlogGrid>-->
   </section>
 </template>
 

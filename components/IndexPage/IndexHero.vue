@@ -13,11 +13,11 @@
               <br>IT Solution</h1>
             <p class="para-desc text-muted">We merge creative minds and innovation to help brands grow in an age of
               digital transformation.</p>
-            <div class="mt-4 pt-2">
-              <a href="" class="btn btn-primary me-2">Get Started</a>
-              <a href="" class="btn btn-outline-primary">Documentation</a>
-            </div>
-            <p class="text-muted mb-0 mt-3">Current Version: v3.0.0</p>
+<!--            <div class="mt-4 pt-2">-->
+<!--              <a href="" class="btn btn-primary me-2">Get Started</a>-->
+<!--              <a href="" class="btn btn-outline-primary">Documentation</a>-->
+<!--            </div>-->
+<!--            <p class="text-muted mb-0 mt-3">Current Version: v3.0.0</p>-->
           </div>
         </div><!--end col-->
         <div class="col-md-6 order-md-2 order-1 mt-md-0 pt-n4">

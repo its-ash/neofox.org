@@ -12,14 +12,14 @@
               </h1>
               <p class="para-desc text-muted h3">We go for assortment over sum, and quality results are passed on by
                 essentially the best people. </p>
-              <div class="mt-4 pt-2">
-                <a href="javascript:void(0)" class="btn btn-primary m-1">Learn More <i
-                  class="uil uil-angle-right-b"></i></a>
-                <a href="#" data-type="youtube" data-id="yba7hPeTSjk"
-                   class="btn btn-icon btn-pills btn-primary m-1 lightbox"><i data-feather="video"
-                                                                              class="icons"></i></a><span
-                class="fw-bold text-uppercase small align-middle ms-1">Watch Now</span>
-              </div>
+              <!--              <div class="mt-4 pt-2">-->
+              <!--                <a href="javascript:void(0)" class="btn btn-primary m-1">Learn More <i-->
+              <!--                  class="uil uil-angle-right-b"></i></a>-->
+              <!--                <a href="#" data-type="youtube" data-id="yba7hPeTSjk"-->
+              <!--                   class="btn btn-icon btn-pills btn-primary m-1 lightbox"><i data-feather="video"-->
+              <!--                                                                              class="icons"></i></a><span-->
+              <!--                class="fw-bold text-uppercase small align-middle ms-1">Watch Now</span>-->
+              <!--              </div>-->
             </div>
           </div><!--end col-->
 

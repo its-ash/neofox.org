@@ -3,7 +3,7 @@
     <IndexHero class="front-1"></IndexHero>
     <IndexCounter class="front-1"></IndexCounter>
     <IndexService class="front-1"></IndexService>
-    <BlogLatest class="front-1"></BlogLatest>
+<!--    <BlogLatest class="front-1"></BlogLatest>-->
   </section>
 </template>
 

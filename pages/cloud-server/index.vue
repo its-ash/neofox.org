@@ -64,8 +64,8 @@
         </div>
       </div>
     </section>
-    <FaqContainer :faq="FAQ" title="Faq"></FaqContainer>
-    <BlogGrid></BlogGrid>
+    <!--    <FaqContainer :faq="FAQ" title="Faq"></FaqContainer>-->
+    <!--    <BlogGrid></BlogGrid>-->
 
     <div class="container py-5">
       <div class="row justify-content-center py-5">
@@ -79,16 +79,16 @@
               DevOps administrations.
             </p>
 
-            <div class="subcribe-form mt-4 pt-2">
-              <form @submit.prevent @submit="contact">
-                <div class="">
-                  <input v-model="email" type="email" id="email" name="email" class="border bg-white rounded-pill"
-                         required
-                         placeholder="Email Address">
-                  <button type="submit" class="btn btn-pills btn-primary">Get Started</button>
-                </div>
-              </form>
-            </div>
+            <!--            <div class="subcribe-form mt-4 pt-2">-->
+            <!--              <form @submit.prevent @submit="contact">-->
+            <!--                <div class="">-->
+            <!--                  <input v-model="email" type="email" id="email" name="email" class="border bg-white rounded-pill"-->
+            <!--                         required-->
+            <!--                         placeholder="Email Address">-->
+            <!--                  <button type="submit" class="btn btn-pills btn-primary">Get Started</button>-->
+            <!--                </div>-->
+            <!--              </form>-->
+            <!--            </div>-->
           </div>
         </div><!--end col-->
       </div><!--end row-->
