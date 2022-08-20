@@ -34,7 +34,7 @@ jobs:
         with:
           source-directory: 'dist'
           destination-github-username: 'ashvinijangid'
-          destination-repository-name: 'dev-neofox-org'
+          destination-repository-name: 'neofox.org'
           user-email: ashvinijangid@gmail.com
           destination-repository-username: 'neofoxindia'
 
