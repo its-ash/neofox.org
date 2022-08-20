@@ -42,9 +42,9 @@ export default {
       })(document,"script");}`,
         type: 'text/javascript',
         charset: 'utf-8',
-      },
+      }
     ],
-    __dangerouslyDisableSanitizers: ['script', 'innerHTML'],
+    __dangerouslyDisableSanitizers: ['script', 'innerHTML']
   },
   css: ["@/assets/scss/style.scss"],
   plugins: ['~/plugins/filters', '~/plugins/functions'],
@@ -61,7 +61,7 @@ export default {
     config: {
       // Add native Sentry config here
       // https://docs.sentry.io/platforms/javascript/guides/vue/configuration/options/
-    },
+    }
   },
   axios: {},
   content: {},
@@ -80,7 +80,7 @@ export default {
       changefreq: 'daily',
       priority: 1,
       lastmod: new Date()
-    },
+    }
   },
   router: {
     base: '/neofox.org/'
