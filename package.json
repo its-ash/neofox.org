@@ -7,8 +7,7 @@
     "build": "nuxt build --modern=server",
     "optimize": "nuxt build --analyze",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
@@ -29,7 +28,6 @@
     "fibers": "^5.0.0",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
-    "push-dir": "^0.4.1",
     "sass": "~1.32.0",
     "sass-loader": "10",
     "vue": "^2.6.12"
