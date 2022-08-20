@@ -26,8 +26,22 @@ jobs:
       - name: Generate
         run: yarn generate
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Copy Cname
+        run: copy CNAME dist/CNAME
+
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.SUPER_TOKEN }}
         with:
-          github_token: ${{ secrets.SUPER_TOKEN }}
-          publish_dir: ./dist
+          source-directory: './dist'
+          destination-github-username: 'its-ash'
+          destination-repository-name: 'www.neofox.org'
+          user-email: ashvinijangid@gmail.com
+          target-branch: main
+
+#      - name: Deploy
+#        uses: peaceiris/actions-gh-pages@v3
+#        with:
+#          github_token: ${{ secrets.SUPER_TOKEN }}
+#          publish_dir: ./dist

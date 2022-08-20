@@ -41,7 +41,7 @@ export default {
         }
       })(document,"script");}`,
         type: 'text/javascript',
-        charset: 'utf-8',
+        charset: 'utf-8'
       }
     ],
     __dangerouslyDisableSanitizers: ['script', 'innerHTML']
