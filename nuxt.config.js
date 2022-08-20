@@ -74,13 +74,16 @@ export default {
     // extractCSS: true
   },
   sitemap: {
-    hostname: 'https://test1.foxapi.live/',
+    hostname: 'https://neofox.org/',
     exclude: [],
     defaults: {
       changefreq: 'daily',
       priority: 1,
       lastmod: new Date()
     },
+  },
+  router: {
+    base: '/neofox.org/'
   },
   robots: {
     UserAgent: '*',

@@ -8,7 +8,7 @@
     "optimize": "nuxt build --analyze",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "neofox": "BASE_URL=dev-neofox-org nuxt generate"
+    "neofox": "BASE_URL=neofox.org nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
