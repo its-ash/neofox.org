@@ -83,7 +83,7 @@ export default {
     }
   },
   router: {
-    base: '/www.neofox.org/'
+    base: '/'
   },
   robots: {
     UserAgent: '*',
