@@ -28,7 +28,7 @@ export default {
             <!-- End Google Tag Manager -->`
       },
       {
-        innerHTML: `if (window.innerWidth > 600) { (function(d,t) {
+        innerHTML: `if (window.innerWidth > 0) { (function(d,t) {
         var BASE_URL="https://app.chatwoot.com";
         var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
         g.src=BASE_URL+"/packs/js/sdk.js";
