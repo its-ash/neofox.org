@@ -1,7 +1,7 @@
 <template>
   <section class="bg-white">
-    <div class="container py-5 mt-60">
-      <div class="row align-items-center py-5">
+    <div class="container py-md-5 py-2">
+      <div class="row align-items-center">
         <div v-if="messageSent" class="col-lg-5 col-md-6 pt-2 pt-sm-0 order-2 order-md-1 py-5 my-5">
           <h2 class="card-title py-5 my-5">Thanks, <br> We will get back to you ASAP!</h2>
         </div>
@@ -143,6 +143,7 @@ export default {
   },
   methods: {
     submitForm() {
+      this.messageSent = true;
       const data = {
         "fbzx": 6424017248062223410,
         pageHistory: 0,
@@ -160,8 +161,6 @@ export default {
         headers: {
           'Content-Type': 'text/html; charset=utf-8'
         }
-      }).then(() => {
-        this.messageSent = true;
       });
     }
   },

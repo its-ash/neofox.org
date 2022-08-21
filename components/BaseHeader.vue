@@ -315,7 +315,7 @@ export default {
   },
   watch: {
     '$route.path'(path) {
-
+      this.$refs.navigation.classList.remove('d-block')
     }
   }
 }
