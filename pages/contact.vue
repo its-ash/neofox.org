@@ -97,12 +97,28 @@
                 <h5 class="title fw-bold mb-0">Phone</h5>
                 <div class="px-2">
                   <small class="text-dark">BUSINESS</small>
+                  <a href="tel:+918595340289" class="text-success line fw-bold">+91 859534 0289</a>
+                </div>
+                <div class="px-2">
+                  <small class="text-dark">BUSINESS</small>
                   <a href="tel:+919549742939" class="text-success line fw-bold">+91 954974 9426</a>
-
                 </div>
                 <div class="px-2">
                   <small class="text-dark">BUSINESS</small>
                   <a href="tel:+919694978266" class="text-success line fw-bold">+91 969497 2939</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="d-flex contact-detail align-items-center mt-3">
+              <div class="col-12">
+                <h5 class="title mb-0">Visit Here</h5>
+                <div class="px-2">
+                  <a class="text-success fw-bold">
+                    3 Floor,
+                    Vaishali Cloud nine <br>
+                    Ghaziabad,Uttar pardesh
+                  </a>
                 </div>
               </div>
             </div>
